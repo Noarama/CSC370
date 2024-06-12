@@ -31,9 +31,33 @@ CREATE TABLE Comments(
     userName Varchar(50), 
     Date Date
 );
+/*
+When loading in data from a local source you have to log into mysql use the command: $sudo mysql --local-infile=1 -u root -p
+Then, in mysql you need to change the local_infile from 0 to 1: $SET GLOBAL local_infile=1;
+Note: These commands are only necessary when you are going to be loading data from a local source during the session
+*/
 
 LOAD DATA LOCAL INFILE 'PATH TO New_Crops_Data.csv' INTO TABLE `Crops`
     FIELDS TERMINATED BY ',' 
     ENCLOSED BY '"' 
     LINES TERMINATED BY '\r\n' 
     IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'PATH TO users_data.csv' INTO TABLE `Users`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\r\n' 
+    IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'PATH TO comments_data_100.csv' INTO TABLE `Comments`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\r\n' 
+    IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'PATH TO Locations.csv' INTO TABLE `Locations`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\r\n' 
+    IGNORE 1 LINES;
+
