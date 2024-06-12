@@ -31,3 +31,9 @@ CREATE TABLE Comments(
     userName Varchar(50), 
     Date Date
 );
+
+LOAD DATA LOCAL INFILE 'PATH TO New_Crops_Data.csv' INTO TABLE `Crops`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\r\n' 
+    IGNORE 1 LINES;
