@@ -1,7 +1,7 @@
 CREATE TABLE Crops(
     name VARCHAR(50),
     variety VARCHAR(100),
-    type ENUM('Vegtable', 'Fruit', 'Herb'),
+    type ENUM('Vegetable', 'Fruit', 'Herb'),
     germinationPeriod VARCHAR(120),
     water_needs ENUM('Low', 'Moderate', 'High'),
     fertilizationNeeds VARCHAR(120),
