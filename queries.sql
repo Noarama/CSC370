@@ -34,7 +34,10 @@ FROM `Crops`
 WHERE type = 'Herb';
 
 --- Show where a user that wrote a comment  lives (join) (Ella)
-SELECT users.area FROM `Comments` JOIN users ON comments.userName=users.userName WHERE Comments.CommentID = 2;
+SELECT users.area 
+FROM `Comments` 
+JOIN users ON comments.userName=users.userName 
+WHERE Comments.CommentID = 2;
 --- Show the user with the most comments (join, aggregation) (Noa)
 --- Show the level of a user that wrote a certain comment (join) (Julia)
 --- Add a comment associated with a crop (basic) (Ella)
