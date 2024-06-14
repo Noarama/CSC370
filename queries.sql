@@ -33,7 +33,7 @@ SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Herb';
 
---- Show where a user that wrote a comment  lives (join) (Ella)
+--- Show where a user that wrote a comment lives - in this case looking for user who wrote comment with commentID =2 (join)
 SELECT users.area 
 FROM `Comments` 
 JOIN users ON comments.userName=users.userName 
