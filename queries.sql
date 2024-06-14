@@ -6,7 +6,7 @@ FROM `Crops`
 WHERE sunRequirements = 'Full sun (6-8 hours)';
 
 --- Show all crops that have a certain water requirement
-SELECT `Variety`, `Name`
+SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE water_needs = 'Moderate';
 
@@ -14,27 +14,24 @@ WHERE water_needs = 'Moderate';
 --- Show all users growing a specific crop (join aggregation)
 
 --- Show all varieties of a certain crop 
-SELECT `Variety`
+SELECT DISTINCT `Variety`
 FROM `Crops`
 WHERE Name = 'Tomatoe';
 
 --- Show all vegetables 
-SELECT `Variety`, `Name`
+SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
-GROUP BY `Variety`, `Name`
-HAVING type = 'Vegetable';
+WHERE type = 'Vegetable';
 
 --- Show all fruits 
-SELECT `Variety`, `Name`
+SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
-GROUP BY `Variety`, `Name`
-HAVING type = 'Fruit';
+WHERE type = 'Fruit';
 
 --- Show all herbs 
-SELECT `Variety`, `Name`
+SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
-GROUP BY `Variety`, `Name`
-HAVING type = 'Herb';
+WHERE type = 'Herb';
 
 --- Show where a user that wrote a comment  lives (join)
 --- Show the user with the most comments (join, aggregation)
