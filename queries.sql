@@ -2,5 +2,5 @@
 
 ---Show all crops that have a certain sun requirement
 SELECT `Variety`, `Name`
-From `Garden`
+From `Crops`
 WHERE sunRequirements = 'Full sun (6-8 hours)';
