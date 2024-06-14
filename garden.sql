@@ -28,10 +28,10 @@ CREATE TABLE Users(
 );
 
 CREATE TABLE Comments(
-    CommentID int,  
-    userName Varchar(50), 
-    Date Date,
-    Contents Varchar(256),
+    CommentID INT AUTO_INCREMENT,  
+    userName VARCHAR(50), 
+    Date DATE,
+    Contents VARCHAR(256),
     variety VARCHAR(100),
     name VARCHAR(50)
 );
