@@ -20,10 +20,11 @@ CREATE TABLE Location(
 ); 
 
 CREATE TABLE Users(
-    isAdmin Bool, 
-    userName Varchar(50), 
-    currentlyGrows Varchar(120),
-    experienceLevel ENUM('begginer', 'intermediate', 'expert')
+    userName VARCHAR(50),
+    area VARCHAR(50),
+    experienceLevel ENUM('beginner', 'intermediate', 'expert'),
+    isAdmin BOOL, 
+    growing VARCHAR(120)
 );
 
 CREATE TABLE Comments(
