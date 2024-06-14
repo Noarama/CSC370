@@ -28,10 +28,12 @@ CREATE TABLE Users(
 );
 
 CREATE TABLE Comments(
-    CommentID int, 
-    Contents Varchar(256), 
+    CommentID int,  
     userName Varchar(50), 
-    Date Date
+    Date Date,
+    Contents Varchar(256),
+    variety VARCHAR(100),
+    name VARCHAR(50)
 );
 /*
 When loading in data from a local source you have to log into mysql use the command: $sudo mysql --local-infile=1 -u root -p
