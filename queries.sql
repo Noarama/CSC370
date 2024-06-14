@@ -40,9 +40,16 @@ JOIN users ON comments.userName=users.userName
 WHERE Comments.CommentID = 2;
 --- Show the user with the most comments (join, aggregation) (Noa)
 --- Show the level of a user that wrote a certain comment (join) (Julia)
+
 --- Add a comment associated with a crop (basic) (Ella)
 INSERT INTO `Comments`
 VALUES(101, 'harvest_hustler', '2024-06-14', 'This variety is growing super fast!!!!', 'Tomato', 'Cherry');
+
 --- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
+INSERT INTO `Comments`(userName, Date, Contents, variety, name)
+SELECT 'soil_scholar','2024-06-14', 'I love tomatoes', variety, 'Tomato'
+FROM `Crops`
+WHERE Name = 'Tomato';
+  
 --- Show where each user growing basil lives in (sub queries) (Noa)
 --- Show the most popular area where eggplant is grown (sub queries, aggregation) (Julia)
