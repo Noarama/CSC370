@@ -12,14 +12,30 @@ WHERE water_needs = 'Moderate';
 
 --- Show all crops affected by a certain pest - (basic, string processing) 
 --- Show all users growing a specific crop (join aggregation)
+
 --- Show all varieties of a certain crop 
 SELECT `Variety`
 FROM `Crops`
 WHERE Name = 'Tomatoe';
 
 --- Show all vegetables 
+SELECT `Variety`, `Name`
+FROM `Crops`
+GROUP BY `Variety`, `Name`
+HAVING type = 'Vegetable';
+
 --- Show all fruits 
---- Show all herbs (basic)
+SELECT `Variety`, `Name`
+FROM `Crops`
+GROUP BY `Variety`, `Name`
+HAVING type = 'Fruit';
+
+--- Show all herbs 
+SELECT `Variety`, `Name`
+FROM `Crops`
+GROUP BY `Variety`, `Name`
+HAVING type = 'Herb';
+
 --- Show where a user that wrote a comment  lives (join)
 --- Show the user with the most comments (join, aggregation)
 --- Show the level of a user that wrote a certain comment (join)
