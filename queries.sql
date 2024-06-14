@@ -41,6 +41,8 @@ WHERE Comments.CommentID = 2;
 --- Show the user with the most comments (join, aggregation) (Noa)
 --- Show the level of a user that wrote a certain comment (join) (Julia)
 --- Add a comment associated with a crop (basic) (Ella)
+INSERT INTO `Comments`
+VALUES(101, 'harvest_hustler', '2024-06-14', 'This variety is growing super fast!!!!', 'Tomato', 'Cherry');
 --- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
 --- Show where each user growing basil lives in (sub queries) (Noa)
 --- Show the most popular area where eggplant is grown (sub queries, aggregation) (Julia)
