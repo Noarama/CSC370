@@ -11,11 +11,12 @@ CREATE TABLE Crops(
     timeToPlant VARCHAR(120)
 );
 
-CREATE TABLE location(
+--chat gpt date are strings and don't fit as sql DATE data type
+CREATE TABLE Location(
     area VARCHAR(50), 
     province VARCHAR(120), 
-    lastFrost DATE,
-    firstFrost DATE
+    lastFrost VARCHAR(30),
+    firstFrost VARCHAR(30)
 ); 
 
 CREATE TABLE Users(
@@ -55,7 +56,7 @@ LOAD DATA LOCAL INFILE 'PATH TO comments_data_100.csv' INTO TABLE `Comments`
     LINES TERMINATED BY '\r\n' 
     IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'PATH TO Locations.csv' INTO TABLE `Locations`
+LOAD DATA LOCAL INFILE 'PATH TO Locations.csv' INTO TABLE `Location`
     FIELDS TERMINATED BY ',' 
     ENCLOSED BY '"' 
     LINES TERMINATED BY '\r\n' 
