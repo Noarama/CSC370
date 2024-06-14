@@ -10,13 +10,13 @@ SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE water_needs = 'Moderate';
 
---- Show all crops affected by a certain pest - (basic, string processing) 
---- Show all users growing a specific crop (join aggregation)
+--- Show all crops affected by a certain pest - (basic, string processing) (Noa)
+--- Show all users growing a specific crop (join aggregation) (Julia)
 
 --- Show all varieties of a certain crop 
 SELECT DISTINCT `Variety`
 FROM `Crops`
-WHERE Name = 'Tomatoe';
+WHERE Name = 'Tomato';
 
 --- Show all vegetables 
 SELECT DISTINCT `Variety`, `Name`
@@ -33,10 +33,10 @@ SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Herb';
 
---- Show where a user that wrote a comment  lives (join)
---- Show the user with the most comments (join, aggregation)
---- Show the level of a user that wrote a certain comment (join)
---- Add a comment associated with a crop (basic)
---- Comment I love tomatoes on all varieties of tomatoes (subquery) 
---- Show where each user growing basil lives in (sub queries)
---- Show the most popular area where eggplant is grown (sub queries, aggregation) 
+--- Show where a user that wrote a comment  lives (join) (Ella)
+--- Show the user with the most comments (join, aggregation) (Noa)
+--- Show the level of a user that wrote a certain comment (join) (Julia)
+--- Add a comment associated with a crop (basic) (Ella)
+--- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
+--- Show where each user growing basil lives in (sub queries) (Noa)
+--- Show the most popular area where eggplant is grown (sub queries, aggregation) (Julia)
