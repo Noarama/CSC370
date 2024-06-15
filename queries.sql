@@ -11,7 +11,10 @@ FROM `Crops`
 WHERE water_needs = 'Moderate';
 
 --- Show all crops affected by a certain pest - (basic, string processing) (Noa)
---- Show all users growing a specific crop (join aggregation) (Julia)
+--- Show all users growing a specific crop (Julia)
+SELECT userName
+FROM Users
+WHERE growing LIKE '%Peppers, Bell%';
 
 --- Show all varieties of a certain crop 
 SELECT DISTINCT `Variety`
