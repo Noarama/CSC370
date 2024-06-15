@@ -39,7 +39,14 @@ WHERE type = 'Herb';
 --- Show where a user that wrote a comment  lives (join) (Ella)
 --- Show the user with the most comments (join, aggregation) (Noa)
 --- Show the level of a user that wrote a certain comment (join) (Julia)
+
 --- Add a comment associated with a crop (basic) (Ella)
 --- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
 --- Show where each user growing basil lives in (sub queries) (Noa)
---- Show the most popular area where eggplant is grown (sub queries, aggregation) (Julia)
+--- Show the most popular area where eggplant is grown (Julia)
+SELECT Area, COUNT(*) as Popularity
+FROM YourTable
+WHERE growing LIKE '%Eggplant%'
+GROUP BY Area
+ORDER BY Popularity DESC
+LIMIT 1;
