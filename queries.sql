@@ -39,6 +39,10 @@ WHERE type = 'Herb';
 --- Show where a user that wrote a comment  lives (join) (Ella)
 --- Show the user with the most comments (join, aggregation) (Noa)
 --- Show the level of a user that wrote a certain comment (join) (Julia)
+SELECT u.experienceLevel
+FROM Users u
+JOIN Comments c ON u.userName = c.userName
+WHERE c.CommentID = 6;
 
 --- Add a comment associated with a crop (basic) (Ella)
 --- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
