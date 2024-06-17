@@ -11,7 +11,10 @@ FROM `Crops`
 WHERE water_needs = 'Moderate';
 
 --- Show all crops affected by a certain pest - (basic, string processing) (Noa)
---- Show all users growing a specific crop (join aggregation) (Julia)
+--- Show all users growing a specific crop (Julia)
+SELECT userName
+FROM Users
+WHERE growing LIKE '%Peppers, Bell%';
 
 --- Show all varieties of a certain crop 
 SELECT DISTINCT `Variety`
@@ -39,7 +42,12 @@ FROM `Comments`
 JOIN users ON comments.userName=users.userName 
 WHERE Comments.CommentID = 2;
 --- Show the user with the most comments (join, aggregation) (Noa)
+
 --- Show the level of a user that wrote a certain comment (join) (Julia)
+SELECT u.experienceLevel
+FROM Users u
+JOIN Comments c ON u.userName = c.userName
+WHERE c.CommentID = 6;
 
 --- Add a comment associated with a crop (basic) (Ella)
 INSERT INTO `Comments`
@@ -52,4 +60,10 @@ FROM `Crops`
 WHERE Name = 'Tomato';
   
 --- Show where each user growing basil lives in (sub queries) (Noa)
---- Show the most popular area where eggplant is grown (sub queries, aggregation) (Julia)
+--- Show the most popular area where eggplant is grown (Julia)
+SELECT Area, COUNT(*) as Popularity
+FROM YourTable
+WHERE growing LIKE '%Eggplant%'
+GROUP BY Area
+ORDER BY Popularity DESC
+LIMIT 1;
