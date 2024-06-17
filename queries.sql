@@ -36,8 +36,13 @@ SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Herb';
 
---- Show where a user that wrote a comment  lives (join) (Ella)
+--- Show where a user that wrote a comment lives - in this case looking for user who wrote comment with commentID =2 (join)
+SELECT users.area 
+FROM `Comments` 
+JOIN users ON comments.userName=users.userName 
+WHERE Comments.CommentID = 2;
 --- Show the user with the most comments (join, aggregation) (Noa)
+
 --- Show the level of a user that wrote a certain comment (join) (Julia)
 SELECT u.experienceLevel
 FROM Users u
@@ -45,7 +50,15 @@ JOIN Comments c ON u.userName = c.userName
 WHERE c.CommentID = 6;
 
 --- Add a comment associated with a crop (basic) (Ella)
+INSERT INTO `Comments`
+VALUES(101, 'harvest_hustler', '2024-06-14', 'This variety is growing super fast!!!!', 'Tomato', 'Cherry');
+
 --- Comment I love tomatoes on all varieties of tomatoes (subquery) (Ella)
+INSERT INTO `Comments`(userName, Date, Contents, variety, name)
+SELECT 'soil_scholar','2024-06-14', 'I love tomatoes', variety, 'Tomato'
+FROM `Crops`
+WHERE Name = 'Tomato';
+  
 --- Show where each user growing basil lives in (sub queries) (Noa)
 --- Show the most popular area where eggplant is grown (Julia)
 SELECT Area, COUNT(*) as Popularity
