@@ -11,27 +11,32 @@ FROM `Crops`
 WHERE water_needs = 'Moderate';
 
 --- Show all crops affected by a certain pest - (basic, string processing) (Noa)
+SELECT `Variety`, `Name`
+FROM `Crops`
+WHERE commonPests LIKE 'Aphids%' OR '%aphids';
+
+
 --- Show all users growing a specific crop (Julia)
 SELECT userName
 FROM Users
 WHERE growing LIKE '%Peppers, Bell%';
 
---- Show all varieties of a certain crop 
+--- Show all varieties of a certain crop (Julia)
 SELECT DISTINCT `Variety`
 FROM `Crops`
 WHERE Name = 'Tomato';
 
---- Show all vegetables 
+--- Show all vegetables (Julia)
 SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Vegetable';
 
---- Show all fruits 
+--- Show all fruits (Julia)
 SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Fruit';
 
---- Show all herbs 
+--- Show all herbs (Julia)
 SELECT DISTINCT `Variety`, `Name`
 FROM `Crops`
 WHERE type = 'Herb';
@@ -60,6 +65,7 @@ FROM `Crops`
 WHERE Name = 'Tomato';
   
 --- Show where each user growing basil lives in (sub queries) (Noa)
+
 --- Show the most popular area where eggplant is grown (Julia)
 SELECT Area, COUNT(*) as Popularity
 FROM YourTable

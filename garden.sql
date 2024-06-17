@@ -65,3 +65,18 @@ LOAD DATA LOCAL INFILE 'PATH TO Locations.csv' INTO TABLE `Location`
     LINES TERMINATED BY '\r\n' 
     IGNORE 1 LINES;
 
+/*
+* Adding keys to all tables
+*/
+
+ALTER TABLE comments
+ADD PRIMARY KEY (CommentID)
+ADD FOREIGN KEY (userName) REFERENCES Users(userName);
+
+ALTER TABLE Users
+ADD PRIMARY KEY (userName)
+ADD FOREIGN KEY (area) REFERENCES Location(area);
+
+ALTER TABLE Location
+ADD PRIMARY KEY (area);
+
