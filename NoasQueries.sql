@@ -87,6 +87,16 @@ WHERE userName IN
     FROM Comments
 );
 
+/* 
+Queries 9 and 10 can be accelerated by implementing an index on `Users`.`area`
+These queries have been identified as queries which would benefit from indexing because they use all of subqueries, aggregation and 
+selection which can be costly operations. 
+Both of these queries have a selection predicate on `Users`.`area` through the GROUP BY `Users`.`area` and ORDER BY COUNT(*)
+This is nested within the JOIN operation, so the number of rows that need to be processed in the outer query are significantly.
+*/
+CREATE INDEX `idx_user_area` ON `Users`(`area`);
+
+
 -- 10. Show the date for the last frost of the most common area among the users.
 SELECT Location.area, Province, lastFrost
 FROM Location
