@@ -40,5 +40,17 @@ COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1; --turn foreign key checks back on
 
+-- TRANSACTION for removing a user and their associated data from the system
+
+START TRANSACTION;
+
+DELETE FROM comments
+WHERE userName = 'user_to_delete';
+
+DELETE FROM users
+WHERE userName = 'user_to_delete';
+
+COMMIT;
+
 
 
