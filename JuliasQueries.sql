@@ -5,6 +5,16 @@
 
 /******* Subqueries *******/
 
+/* 
+Query 1 can be accelerated by implementing an index on `Comments`.`userName`
+This query has been identified as a query which would benefit from indexing because it uses all of subqueries, group by and
+order by which are costly operations. 
+This queries has a selection predicate on `Comments`.`userName` through the GROUP BY `Comments`.`userName` and ORDER BY COUNT(*) DESC
+and another selection on `Users`.`userName`. Since `Users`.`userName` is a primary key, it is already indexed and `Comments`.`userName`
+is the most beneficial choice for indexing
+*/
+CREATE INDEX `idx_comment_userName` ON `Comments`(`userName`);
+
 -- 1. Show the crops of the user with the most comments
 SELECT `growing`
 FROM `Users`
@@ -17,7 +27,23 @@ WHERE `Users`.`userName` IN
   LIMIT 1
 );
 
--- 2. Show all users who do not grow Basil
+/* 
+Query 2 can also be accelerated by implementing an index on `Comments`.`userName`
+This queries has a selection predicate on `Comments`.`userName` through the WHERE clause in the outer subquery. An index on
+`Comments`.`userName` will accelerate the filtering proccesss. Since `Users`.`userName` is a primary key, it is already indexed and `Comments`.`userName`
+is the most beneficial choice for indexing
+*/
+
+-- 2. Show all users who have never commented 
+SELECT `userName`
+FROM `Users`
+  WHERE `userName` NOT IN
+(
+    SELECT `userName`
+    FROM `Comments`
+);
+
+-- 3. Show all users who do not grow Basil
 SELECT `userName`
 FROM `Users`
 WHERE `userName` NOT IN 
@@ -27,14 +53,6 @@ WHERE `userName` NOT IN
   WHERE `growing` LIKE '%Basil%'
   );
 
--- 3. Show all users who have never commented 
-SELECT `userName`
-FROM `Users`
-  WHERE `userName` NOT IN
-(
-    SELECT `userName`
-    FROM `Comments`
-);
 
 /******* Grouping and Aggregation*******/
   
