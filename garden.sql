@@ -162,10 +162,53 @@ FOREIGN KEY (userName) REFERENCES Users(userName);
 
 
 
+/****** Views: ******/
+
+-- This view shows the users without their personal information
+CREATE VIEW PublicUsers AS 
+SELECT userName, experienceLevel, growing
+FROM Users;
+
+-- This view shows all expert users
+CREATE VIEW Experts AS
+SELECT * 
+FROM Users 
+WHERE experienceLevel = 3;
 
 
+/****** Security and Privilages: ******/
 
+-- Create the type of user
+CREATE USER 'admin'@'%' IDENTIFIED BY 'IAmAdmin';
+CREATE USER 'user'@'%' IDENTIFIED BY 'IAmUser';
+CREATE USER 'expert'@'%' IDENTIFIED BY 'IAmExpert';
 
+-- Give privilages 
 
+-- This is for admin users
+GRANT ALL PRIVILEGES 
+ON Crops, Users, Location, Comments
+TO 'admin'@'%';
 
+-- This is for the regular user
+GRANT SELECT 
+ON Publicusers, Crops, Comments 
+TO 'user'@'%';
+
+GRANT INSERT
+ON Comments 
+TO 'user'@'%';
+
+-- This is for expert users
+GRANT SELECT 
+ON Publicusers, Crops, Comments 
+TO 'expert'@'%'
+
+GRANT INSERT
+ON Comments 
+TO 'expert'@'%'
+
+GRANT INSERT, ALTER 
+ON Crops 
+TO 'expert'@'%';
 
