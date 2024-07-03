@@ -12,11 +12,17 @@ VALUES ('super_grower', 'Prince George', 1 , False, NULL);
 INSERT INTO Comments
 VALUES (101, 'super_grower', '2023-01-03', 'Help! My plant is dying!', 'Thai', 'Basil');
 
+INSERT INTO Users 
+VALUES('noarama', 'Nanaimo', 2, True, NULL);
+
 
 
 /******* SELECT-FROM-WHERE Queries *******/
 
+
+
 -- 1. Shows all users that are begginers
+-- Relational Algebra: $\pi_{userName}( \sigma_{experienceLevel = 1}(Users) )$
 SELECT userName
 FROM Users
 WHERE experienceLevel = 1;
@@ -30,6 +36,7 @@ WHERE commonPests LIKE '%aphids%' OR 'Aphids%';
 /******* JOINS *******/
 
 -- 3. Shows all the information about the user and the comments they made.
+-- Relational Algebra: $Comments \bowtie_{Comments.userName = Users.userName} Users$ (Take the first five of)
 SELECT * 
 FROM Comments 
 JOIN Users ON Comments.userName = Users.userName
@@ -123,3 +130,4 @@ JOIN
     LIMIT 1  
 ) AS PopularArea
 ON (PopularArea.area = Users.area);
+4
