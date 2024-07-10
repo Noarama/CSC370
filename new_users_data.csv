@@ -1,0 +1,76 @@
+Username,Area,Experience,isAdmin
+green_thumb,Prince George,intermediate,False
+urban_farmer,Bathurst,beginner,False
+harvest_queen,Tignish,expert,True
+seed_sower,Qubec,intermediate,False
+veggie_viking,Summerside,beginner,False
+crop_master,Shelburne,intermediate,True
+soil_scholar,Thompson,expert,True
+plant_whisperer,Weyburn,expert,False
+field_guru,Winnipeg,expert,False
+garden_giant,Edmunston,intermediate,False
+root_royalty,Baie-Comeau,intermediate,True
+sprout_sage,Grand Falls,intermediate,False
+leaf_lord,Summerside,intermediate,False
+eco_planter,Hamilton,intermediate,False
+farm_fanatic,Athabasca,expert,True
+flora_fan,Timmins,intermediate,False
+crop_champion,Timmins,expert,False
+earth_expert,Halifax,beginner,True
+grow_guru,Winnipeg,beginner,True
+field_fanatic,Timmins,expert,False
+organic_enthusiast,St. John's,beginner,False
+soil_savant,Victoria,intermediate,True
+green_grower,Baie-Comeau,beginner,True
+plant_pro,Sherbrooke,intermediate,False
+flora_freak,Calgary,intermediate,False
+root_reaper,Winnipeg,intermediate,True
+earth_elite,Yarmouth,beginner,True
+garden_genius,Owen Sound,intermediate,True
+harvest_hustler,Windsor,beginner,True
+plant_professor,Corner Brook,intermediate,True
+crop_connoisseur,Thunder Bay,expert,True
+green_guru,Parry Sound,beginner,True
+field_fan,Sudbury,beginner,True
+garden_geek,Montral,beginner,True
+seed_savant,Qubec,expert,True
+flora_freak,Halifax,expert,True
+harvest_hero,Thunder Bay,beginner,True
+eco_expert,Hamilton,beginner,True
+soil_scholar,Grand Falls,intermediate,False
+root_reaper,Baie-Comeau,intermediate,False
+green_genius,Nanaimo,expert,True
+crop_cultivator,Kelowna,intermediate,True
+garden_guru,Sudbury,intermediate,True
+plant_pioneer,Parry Sound,beginner,False
+earth_enthusiast,Chicoutimi,intermediate,True
+organic_obsessed,Calgary,expert,True
+flora_fanatic,Saskatoon,intermediate,False
+field_fanatic,Thetford Mines,expert,False
+garden_guru,St. Catharines,expert,False
+grow_genius,Nanaimo,intermediate,True
+eco_elite,Sudbury,intermediate,False
+plant_prodigy,Bathurst,intermediate,True
+soil_scientist,Dawson Creek,beginner,False
+crop_creator,Sudbury,beginner,True
+field_fanatic,Barrie,intermediate,False
+garden_geek,Corner Brook,beginner,True
+green_genius,Dawson Creek,beginner,True
+seed_sower,Regina,expert,True
+harvest_hero,Vancouver,intermediate,False
+plant_prodigy,London,beginner,False
+soil_savant,Kelowna,intermediate,False
+flora_fan,Red Deer,beginner,True
+earth_expert,The Pas,expert,False
+crop_champion,Trois-Rivires,beginner,False
+organic_enthusiast,Chilliwack,beginner,True
+field_fanatic,Charlottetown,expert,False
+garden_guru,St. Catharines,expert,True
+harvest_hustler,Ottawa,beginner,True
+plant_professor,Sherbrooke,intermediate,True
+eco_expert,Timmins,expert,False
+garden_grower,Vancouver,intermediate,True
+seed_seeker,Bathurst,expert,True
+crop_caretaker,Rimouski,expert,True
+flora_fanatic,Grand Falls,intermediate,False
+green_guardian,Hamilton,beginner,False
