@@ -1,0 +1,338 @@
+Name,Variety,Type,Germination Period (Days),Water Needs,Fertilization Needs,Companions,Sun Requirements,Time to Plant (Relation to Frost Dates)
+Cucumber,Marketmore,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beans, Radishes, Corn",Full sun (6-8 hours),After last frost
+Cucumber,Boston Pickling,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beans, Radishes, Corn",Full sun (6-8 hours),After last frost
+Cucumber,Lemon,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beans, Radishes, Corn",Full sun (6-8 hours),After last frost
+Eggplant,Black Beauty,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Beans, Peppers, Marigold",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Rosa Bianca,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Beans, Peppers, Marigold",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Ichiban,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Beans, Peppers, Marigold",Full sun (6-8 hours),1-2 weeks after last frost
+Cilantro,Santo,Herb,7 to 14,Moderate,"Low, compost","Tomato, Basil, Peppers",Full sun to partial shade,After last frost
+Cilantro,Calypso,Herb,7 to 14,Moderate,"Low, compost","Tomato, Basil, Peppers",Full sun to partial shade,After last frost
+Cilantro,Slo-Bolt,Herb,7 to 14,Moderate,"Low, compost","Tomato, Basil, Peppers",Full sun to partial shade,After last frost
+Kale,Lacinato,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun to partial shade,3-5 weeks before last frost
+Kale,Red Russian,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun to partial shade,3-5 weeks before last frost
+Kale,Dwarf Blue Curled,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun to partial shade,3-5 weeks before last frost
+Parsley,Italian Flat Leaf,Herb,14 to 21,Moderate,"Low, compost","Tomato, Asparagus",Full sun to partial shade,After last frost
+Parsley,Curly Leaf,Herb,14 to 21,Moderate,"Low, compost","Tomato, Asparagus",Full sun to partial shade,After last frost
+Parsley,Hamburg Rooted,Herb,14 to 21,Moderate,"Low, compost","Tomato, Asparagus",Full sun to partial shade,After last frost
+Radish,Cherry Belle,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Radish,French Breakfast,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Radish,Daikon,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Pea,Sugar Snap,Vegetable,7 to 14,Moderate,"Low, compost","Carrot, Radish, Cucumber",Full sun to partial shade,4-6 weeks before last frost
+Pea,Snow,Vegetable,7 to 14,Moderate,"Low, compost","Carrot, Radish, Cucumber",Full sun to partial shade,4-6 weeks before last frost
+Pea,English,Vegetable,7 to 14,Moderate,"Low, compost","Carrot, Radish, Cucumber",Full sun to partial shade,4-6 weeks before last frost
+Beet,Detroit Dark Red,Vegetable,5 to10,Moderate,"Low, compost","Onion, Cabbage, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Beet,Chioggia,Vegetable,5 to 10,Moderate,"Low, compost","Onion, Cabbage, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Beet,Golden,Vegetable,5 to 10,Moderate,"Low, compost","Onion, Cabbage, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Chard,Rainbow,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Cabbage, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Chard,Fordhook Giant,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Cabbage, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Chard,Ruby Red,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Cabbage, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Broccoli,Calabrese,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Waltham 29,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Purple Sprouting,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Cauliflower,Snowball,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Cauliflower,Cheddar,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Cauliflower,Purple of Sicily,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Onion, Beet, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Tomato,Roma,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Cherry,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Beefsteak,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Basil,Genovese,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Thai,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Lemon,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Carrot,Nantes,Vegetable,10 to 20,Moderate,"Low, compost in soil","Onions, Peas, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Carrot,Danvers,Vegetable,10 to 20,Moderate,"Low, compost in soil","Onions, Peas, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Lettuce,Butterhead,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Lettuce,Romaine,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Strawberry,June-bearing,Fruit,7 to 10,Moderate,Balanced NPK fertilizer,"Spinach, Beans, Thyme",Full sun (6-8 hours),After last frost
+Strawberry,Everbearing,Fruit,7 to 10,Moderate,Balanced NPK fertilizer,"Spinach, Beans, Thyme",Full sun (6-8 hours),After last frost
+Rosemary,Arp,Herb,14 to 21,Low,"Minimal, compost","Sage, Thyme, Lavender",Full sun (6-8 hours),After last frost
+Rosemary,Tuscan Blue,Herb,14 to 21,Low,"Minimal, compost","Sage, Thyme, Lavender",Full sun (6-8 hours),After last frost
+Bell Pepper,California Wonder,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Bell Pepper,Ace,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Zucchini,Black Beauty,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Zucchini,Cocozelle,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Mint,Spearmint,Herb,10 to 15,High,"Minimal, compost","Cabbage, Tomato",Partial shade to full sun,After last frost
+Mint,Peppermint,Herb,10 to 15,High,"Minimal, compost","Cabbage, Tomato",Partial shade to full sun,After last frost
+Spinach,Bloomsdale,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Savoy,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Tyee,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Space,Vegetable,7 to 17,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Bloomsdale Long Standing,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Pumpkin,Jack O'Lantern,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Pumpkin,Sugar Pie,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Pumpkin,Atlantic Giant,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Watermelon,Crimson Sweet,Fruit,7 to 17,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Watermelon,Sugar Baby,Fruit,7 to 14,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Watermelon,Charleston Gray,Fruit,7 to 14,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Squash,Yellow Crookneck,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Beans, Corn, Nasturtium",Full sun (6-8 hours),After last frost
+Squash,Patty Pan,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Beans, Corn, Nasturtium",Full sun (6-8 hours),After last frost
+Squash,Butternut,Vegetable,7 to 17,High,Balanced NPK fertilizer,"Beans, Corn, Nasturtium",Full sun (6-8 hours),After last frost
+Onion,Walla Walla,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Onion,Yellow Sweet Spanish,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Onion,Red Burgundy,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Garlic,Softneck,Vegetable,7 to 14,Moderate,"Low, compost","Tomato, Cabbage, Broccoli",Full sun (6-8 hours),2-4 weeks before last frost
+Garlic,Hardneck,Vegetable,7 to 17,Moderate,"Low, compost","Tomato, Cabbage, Broccoli",Full sun (6-8 hours),2-4 weeks before last frost
+Garlic,Elephant,Vegetable,7 to 14,Moderate,"Low, compost","Tomato, Cabbage, Broccoli",Full sun (6-8 hours),2-4 weeks before last frost
+Chives,Common,Herb,10 to 15,Moderate,"Low, compost","Carrot, Tomato, Strawberry",Full sun to partial shade,After last frost
+Chives,Garlic,Herb,10 to 15,Moderate,"Low, compost","Carrot, Tomato, Strawberry",Full sun to partial shade,After last frost
+Chives,Siberian,Herb,10 to 15,Moderate,"Low, compost","Carrot, Tomato, Strawberry",Full sun to partial shade,After last frost
+Thyme,English,Herb,14-21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Lemon,Herb,14-21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Creeping,Herb,14-21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Dill,Bouquet,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Lettuce, Onion",Full sun (6-8 hours),After last frost
+Dill,Mammoth,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Lettuce, Onion",Full sun (6-8 hours),After last frost
+Dill,Fernleaf,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Lettuce, Onion",Full sun (6-8 hours),After last frost
+Arugula,Astro,Vegetable,5 to 7,Moderate,"Low, compost","Lettuce, Pea, Radish",Full sun to partial shade,2-4 weeks before last frost
+Arugula,Rocket,Vegetable,5 to 7,Moderate,"Low, compost","Lettuce, Pea, Radish",Full sun to partial shade,2-4 weeks before last frost
+Arugula,Wasabi,Vegetable,5 to 7,Moderate,"Low, compost","Lettuce, Pea, Radish",Full sun to partial shade,2-4 weeks before last frost
+Sage,Common,Herb,10 to 21,Low,"Minimal, compost","Rosemary, Thyme, Oregano",Full sun (6-8 hours),After last frost
+Sage,Purple,Herb,10 to 21,Low,"Minimal, compost","Rosemary, Thyme, Oregano",Full sun (6-8 hours),After last frost
+Sage,Pineapple,Herb,10 to 21,Low,"Minimal, compost","Rosemary, Thyme, Oregano",Full sun (6-8 hours),After last frost
+Peppers,Jalapeno,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Habanero,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Poblano,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Radish,Watermelon,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Radish,Black Spanish,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Radish,Easter Egg,Vegetable,3 to 10,Moderate,"Low, compost","Carrot, Lettuce, Pea",Full sun to partial shade,4-6 weeks before last frost
+Tomato,Yellow Pear,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Green Zebra,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Brandywine,Fruit,5 to 10,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Carrot",Full sun (6-8 hours),1-2 weeks after last frost
+Basil,Spicy Globe,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Purple Ruffles,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Dark Opal,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Carrot,Imperator,Vegetable,10 to 20,Moderate,"Low, compost in soil","Onions, Peas, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Carrot,Little Finger,Vegetable,10 to 20,Moderate,"Low, compost in soil","Onions, Peas, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Carrot,Purple Dragon,Vegetable,10 to 20,Moderate,"Low, compost in soil","Onions, Peas, Lettuce",Full sun to partial shade,2-3 weeks before last frost
+Lettuce,Oakleaf,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Lettuce,Looseleaf,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Lettuce,Iceberg,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Strawberry,Alpine,Fruit,7 to 14,Moderate,Balanced NPK fertilizer,"Spinach, Beans, Thyme",Full sun (6-8 hours),After last frost
+Strawberry,Seascape,Fruit,7 to 14,Moderate,Balanced NPK fertilizer,"Spinach, Beans, Thyme",Full sun (6-8 hours),After last frost
+Strawberry,Albion,Fruit,7 to 14,Moderate,Balanced NPK fertilizer,"Spinach, Beans, Thyme",Full sun (6-8 hours),After last frost
+Rosemary,Salem,Herb,14 to 21,Low,"Minimal, compost","Sage, Thyme, Lavender",Full sun (6-8 hours),After last frost
+Rosemary,Hill Hardy,Herb,14 to 21,Low,"Minimal, compost","Sage, Thyme, Lavender",Full sun (6-8 hours),After last frost
+Rosemary,Blue Boy,Herb,14 to 21,Low,"Minimal, compost","Sage, Thyme, Lavender",Full sun (6-8 hours),After last frost
+Bell Pepper,Sweet Banana,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Bell Pepper,Cubanelle,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Bell Pepper,Chocolate Beauty,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Zucchini,Zucchini Gold Rush,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Zucchini,Costata Romanesco,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Zucchini,Eight Ball,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Mint,Apple Mint,Herb,10 to 15,High,"Minimal, compost","Cabbage, Tomato",Partial shade to full sun,After last frost
+Mint,Chocolate Mint,Herb,10 to 15,High,"Minimal, compost","Cabbage, Tomato",Partial shade to full sun,After last frost
+Mint,Pineapple Mint,Herb,10 to 15,High,"Minimal, compost","Cabbage, Tomato",Partial shade to full sun,After last frost
+Spinach,New Zealand,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Indian Summer,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Spinach,Red Cardinal,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Radish",Partial shade to full sun,4-6 weeks before last frost
+Cucumber,Marketmore 76,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Cucumber,Boston Pickling,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Cucumber,Lemon,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Beet,Detroit Dark Red,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Cabbage, Lettuce, Radish",Full sun to partial shade,2-4 weeks before last frost
+Beet,Golden Beet,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Cabbage, Lettuce, Radish",Full sun to partial shade,2-4 weeks before last frost
+Beet,Chioggia,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Cabbage, Lettuce, Radish",Full sun to partial shade,2-4 weeks before last frost
+Kale,Lacinato,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Kale,Red Russian,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Kale,Dwarf Blue Curled,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Thyme,French,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Caraway,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Woolly,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Tomato, Eggplant",Full sun (6-8 hours),After last frost
+Oregano,Greek,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Oregano,Italian,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Oregano,Cuban,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Pea,Sugar Snap,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Pea,Little Marvel,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Pea,Oregon Sugar Pod,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Eggplant,Black Beauty,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Peppers",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Rosa Bianca,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Peppers",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Fairy Tale,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Marigold, Peppers",Full sun (6-8 hours),1-2 weeks after last frost
+Basil,Sweet Thai,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Cinnamon,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Basil,Lemon,Herb,5 to 10,Moderate,Organic compost,"Tomato, Peppers",Full sun (6-8 hours),After last frost
+Lettuce,Butterhead,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Lettuce,Romaine,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Lettuce,Batavia,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Cucumber",Partial shade,2-4 weeks before last frost
+Parsley,Italian Flat Leaf,Herb,14 to 21,Moderate,Balanced NPK fertilizer,"Tomato, Asparagus, Corn",Full sun to partial shade,2-4 weeks before last frost
+Parsley,Curled,Herb,14 to 21,Moderate,Balanced NPK fertilizer,"Tomato, Asparagus, Corn",Full sun to partial shade,2-4 weeks before last frost
+Parsley,Hamburg,Herb,14 to 21,Moderate,Balanced NPK fertilizer,"Tomato, Asparagus, Corn",Full sun to partial shade,2-4 weeks before last frost
+Cilantro,Santo,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Basil, Onion",Full sun (6-8 hours),After last frost
+Cilantro,Leisure,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Basil, Onion",Full sun (6-8 hours),After last frost
+Cilantro,Slo-Bolt,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Basil, Onion",Full sun (6-8 hours),After last frost
+Kale,Siberian,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Kale,Redbor,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Kale,Dwarf Siberian,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Chard,Rainbow,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Brassicas, Onion",Full sun to partial shade,2-4 weeks before last frost
+Chard,Fordhook Giant,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Brassicas, Onion",Full sun to partial shade,2-4 weeks before last frost
+Chard,Bright Lights,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Brassicas, Onion",Full sun to partial shade,2-4 weeks before last frost
+Fennel,Florence,Herb,10 to 14,Moderate,"Minimal, compost","Dill, Cucumber, Tomato",Full sun (6-8 hours),2-4 weeks after last frost
+Fennel,Bronze,Herb,10 to 14,Moderate,"Minimal, compost","Dill, Cucumber, Tomato",Full sun (6-8 hours),2-4 weeks after last frost
+Fennel,Sweet,Herb,10 to 14,Moderate,"Minimal, compost","Dill, Cucumber, Tomato",Full sun (6-8 hours),2-4 weeks after last frost
+Marjoram,Sweet,Herb,10 to 14,Moderate,"Minimal, compost","Tomato, Eggplant, Cabbage",Full sun (6-8 hours),After last frost
+Marjoram,Pot,Herb,10 to 14,Moderate,"Minimal, compost","Tomato, Eggplant, Cabbage",Full sun (6-8 hours),After last frost
+Marjoram,Golden,Herb,10 to 14,Moderate,"Minimal, compost","Tomato, Eggplant, Cabbage",Full sun (6-8 hours),After last frost
+Broccoli,Calabrese,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Di Cicco,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Green Sprouting,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Cauliflower,Snowball,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Cauliflower,Early White,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Cauliflower,Purple Head,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Bean, Celery, Onion",Full sun to partial shade,4-6 weeks before last frost
+Pumpkin,Sugar Pie,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Beans, Marigold",Full sun (6-8 hours),After last frost
+Pumpkin,Jack Be Little,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Beans, Marigold",Full sun (6-8 hours),After last frost
+Pumpkin,Big Max,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Beans, Marigold",Full sun (6-8 hours),After last frost
+Watermelon,Sugar Baby,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Watermelon,Crimson Sweet,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Watermelon,Moon and Stars,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Zucchini,Black Beauty,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Zucchini,Grey,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Zucchini,Cocozelle,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Nasturtium, Marigold",Full sun (6-8 hours),After last frost
+Bell Pepper,Golden California Wonder,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Bell Pepper,Purple Beauty,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Bell Pepper,Sweet Chocolate,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Carrot,Nantes,Vegetable,10 to 14,Moderate,Balanced NPK fertilizer,"Tomato, Radish, Chive",Full sun (6-8 hours),2-4 weeks before last frost
+Carrot,Danvers,Vegetable,10 to 14,Moderate,Balanced NPK fertilizer,"Tomato, Radish, Chive",Full sun (6-8 hours),2-4 weeks before last frost
+Carrot,Rainbow,Vegetable,10 to 14,Moderate,Balanced NPK fertilizer,"Tomato, Radish, Chive",Full sun (6-8 hours),2-4 weeks before last frost
+Cabbage,Golden Acre,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Cabbage,Red Express,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Cabbage,Savoy,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun (6-8 hours),4-6 weeks before last frost
+Chive,Common,Herb,10 to 14,Moderate,"Minimal, compost","Carrot, Tomato, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Chive,Garlic,Herb,10 to 14,Moderate,"Minimal, compost","Carrot, Tomato, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Chive,Siberian,Herb,10 to 14,Moderate,"Minimal, compost","Carrot, Tomato, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Squash,Waltham Butternut,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Marigold",Full sun (6-8 hours),After last frost
+Squash,Yellow Crookneck,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Marigold",Full sun (6-8 hours),After last frost
+Squash,Patty Pan,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Marigold",Full sun (6-8 hours),After last frost
+Dill,Bouquet,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Onion, Lettuce",Full sun (6-8 hours),After last frost
+Dill,Long Island Mammoth,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Onion, Lettuce",Full sun (6-8 hours),After last frost
+Dill,Fernleaf,Herb,10 to 14,Moderate,"Minimal, compost","Cabbage, Onion, Lettuce",Full sun (6-8 hours),After last frost
+Cilantro,Slow Bolting,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Cilantro,Calypso,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Cilantro,Caribe,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Mint,Spearmint,Herb,7 to 14,High,"Minimal, compost","Cabbage, Tomato, Peas",Partial shade to full sun,After last frost
+Mint,Peppermint,Herb,7 to 14,High,"Minimal, compost","Cabbage, Tomato, Peas",Partial shade to full sun,After last frost
+Mint,Chocolate,Herb,7 to 14,High,"Minimal, compost","Cabbage, Tomato, Peas",Partial shade to full sun,After last frost
+Tomato,Roma,Fruit,5 to 10,High,Balanced NPK fertilizer,"Basil, Carrot, Onion",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Beefsteak,Fruit,5 to 10,High,Balanced NPK fertilizer,"Basil, Carrot, Onion",Full sun (6-8 hours),1-2 weeks after last frost
+Tomato,Cherry,Fruit,5 to 10,High,Balanced NPK fertilizer,"Basil, Carrot, Onion",Full sun (6-8 hours),1-2 weeks after last frost
+Lavender,English,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Rose, Carrot",Full sun (6-8 hours),After last frost
+Lavender,French,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Rose, Carrot",Full sun (6-8 hours),After last frost
+Lavender,Spanish,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Rose, Carrot",Full sun (6-8 hours),After last frost
+Oregano,Greek,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Oregano,Italian,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Oregano,Cuban,Herb,10 to 14,Low,"Minimal, compost","Basil, Tomato, Peppers",Full sun (6-8 hours),After last frost
+Peppers,Jalapeno,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Cayenne,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Habanero,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Melon,Cantaloupe,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Melon,Honeydew,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Melon,Galia,Fruit,7 to 14,High,Balanced NPK fertilizer,"Corn, Radish, Nasturtium",Full sun (6-8 hours),After last frost
+Spinach,Bloomsdale,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Strawberries",Full sun to partial shade,4-6 weeks before last frost
+Spinach,New Zealand,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Strawberries",Full sun to partial shade,4-6 weeks before last frost
+Spinach,Tyee,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Carrot, Radish, Strawberries",Full sun to partial shade,4-6 weeks before last frost
+Onion,Yellow Globe,Vegetable,10 to 14,High,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Onion,Red Burgundy,Vegetable,10 to 14,High,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Onion,White Lisbon,Vegetable,10 to 14,High,Balanced NPK fertilizer,"Carrot, Lettuce, Tomato",Full sun (6-8 hours),4-6 weeks before last frost
+Radish,Cherry Belle,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),2-4 weeks before last frost
+Radish,French Breakfast,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),2-4 weeks before last frost
+Radish,Watermelon,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),2-4 weeks before last frost
+Beet,Detroit Dark Red,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Onion, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Beet,Golden,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Onion, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Beet,Chioggia,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Onion, Lettuce",Full sun to partial shade,4-6 weeks before last frost
+Mustard,Red Giant,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Radish, Carrot, Onion",Full sun to partial shade,2-4 weeks before last frost
+Mustard,Mizuna,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Radish, Carrot, Onion",Full sun to partial shade,2-4 weeks before last frost
+Mustard,Green Wave,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Radish, Carrot, Onion",Full sun to partial shade,2-4 weeks before last frost
+Broccoli,Calabrese,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Celery, Onion, Beet",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,De Cicco,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Celery, Onion, Beet",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Waltham,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Celery, Onion, Beet",Full sun (6-8 hours),4-6 weeks before last frost
+Kale,Lacinato,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun to partial shade,4-6 weeks before last frost
+Kale,Red Russian,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun to partial shade,4-6 weeks before last frost
+Kale,Curly,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Beet, Onion, Potato",Full sun to partial shade,4-6 weeks before last frost
+Basil,Genovese,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Pepper, Oregano",Full sun (6-8 hours),After last frost
+Basil,Thai,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Pepper, Oregano",Full sun (6-8 hours),After last frost
+Basil,Lemon,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Pepper, Oregano",Full sun (6-8 hours),After last frost
+Lettuce,Butterhead,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Romaine,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Leaf,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Parsley,Italian Flat Leaf,Herb,14 to 21,Moderate,"Minimal, compost","Tomato, Onion, Asparagus",Full sun to partial shade,2-4 weeks before last frost
+Parsley,Curled,Herb,14 to 21,Moderate,"Minimal, compost","Tomato, Onion, Asparagus",Full sun to partial shade,2-4 weeks before last frost
+Parsley,Hamburg Rooted,Herb,14 to 21,Moderate,"Minimal, compost","Tomato, Onion, Asparagus",Full sun to partial shade,2-4 weeks before last frost
+Thyme,Common,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Strawberry, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Lemon,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Strawberry, Eggplant",Full sun (6-8 hours),After last frost
+Thyme,Creeping,Herb,14 to 21,Low,"Minimal, compost","Cabbage, Strawberry, Eggplant",Full sun (6-8 hours),After last frost
+Rosemary,Tuscan Blue,Herb,14 to 21,Low,"Minimal, compost","Carrot, Sage, Cabbage",Full sun (6-8 hours),After last frost
+Rosemary,Prostratus,Herb,14 to 21,Low,"Minimal, compost","Carrot, Sage, Cabbage",Full sun (6-8 hours),After last frost
+Rosemary,Arp,Herb,14 to 21,Low,"Minimal, compost","Carrot, Sage, Cabbage",Full sun (6-8 hours),After last frost
+Peas,Sugar Snap,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Peas,Snow,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Peas,Garden,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Cucumber,Marketmore,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Lemon,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Armenian,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Bush Champion,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,National Pickling,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Straight Eight,Vegetable,7 to 10,High,Balanced NPK fertilizer,"Bean, Radish, Sunflower",Full sun (6-8 hours),After last frost
+Sage,Common,Herb,14 to 21,Low,"Minimal, compost","Rosemary, Cabbage, Carrot",Full sun (6-8 hours),After last frost
+Sage,Purple,Herb,14 to 21,Low,"Minimal, compost","Rosemary, Cabbage, Carrot",Full sun (6-8 hours),After last frost
+Sage,Golden,Herb,14 to 21,Low,"Minimal, compost","Rosemary, Cabbage, Carrot",Full sun (6-8 hours),After last frost
+Cilantro,Leisure,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Cilantro,Santo,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Cilantro,Delfino,Herb,7 to 10,Moderate,"Minimal, compost","Tomato, Onion, Spinach",Full sun (6-8 hours),After last frost
+Pumpkin,Jack-O-Lantern,Fruit,7 to 10,High,Balanced NPK fertilizer,"Corn, Bean, Nasturtium",Full sun (6-8 hours),After last frost
+Pumpkin,Sugar Pie,Fruit,7 to 10,High,Balanced NPK fertilizer,"Corn, Bean, Nasturtium",Full sun (6-8 hours),After last frost
+Pumpkin,Big Max,Fruit,7 to 10,High,Balanced NPK fertilizer,"Corn, Bean, Nasturtium",Full sun (6-8 hours),After last frost
+Eggplant,Black Beauty,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Tomato, Pepper",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Ichiban,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Tomato, Pepper",Full sun (6-8 hours),1-2 weeks after last frost
+Eggplant,Rosa Bianca,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Tomato, Pepper",Full sun (6-8 hours),1-2 weeks after last frost
+Okra,Clemson Spineless,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Melon, Peppers",Full sun (6-8 hours),After last frost
+Okra,Red Burgundy,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Melon, Peppers",Full sun (6-8 hours),After last frost
+Okra,Hill Country Red,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Melon, Peppers",Full sun (6-8 hours),After last frost
+Peppers,Bell,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Poblano,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Anaheim,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Serrano,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Ghost Pepper,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Peppers,Thai Chili,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Basil, Onion, Spinach",Full sun (6-8 hours),1-2 weeks after last frost
+Pea,Sugar Snap,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Pea,Snow,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Pea,Garden,Vegetable,7 to 10,Moderate,"Minimal, compost","Carrot, Radish, Lettuce",Full sun (6-8 hours),4-6 weeks before last frost
+Celery,Tall Utah,Vegetable,10 to 21,High,Balanced NPK fertilizer,"Leek, Onion, Spinach",Full sun to partial shade,8-10 weeks before last frost
+Celery,Golden Self-Blanching,Vegetable,10 to 21,High,Balanced NPK fertilizer,"Leek, Onion, Spinach",Full sun to partial shade,8-10 weeks before last frost
+Celery,Chinese Pink,Vegetable,10 to 21,High,Balanced NPK fertilizer,"Leek, Onion, Spinach",Full sun to partial shade,8-10 weeks before last frost
+Turnip,Purple Top,Vegetable,5 to 10,Moderate,"Minimal, compost","Pea, Onion, Cabbage",Full sun (6-8 hours),2-4 weeks before last frost
+Turnip,Golden Ball,Vegetable,5 to 10,Moderate,"Minimal, compost","Pea, Onion, Cabbage",Full sun (6-8 hours),2-4 weeks before last frost
+Turnip,Tokyo Cross,Vegetable,5 to 10,Moderate,"Minimal, compost","Pea, Onion, Cabbage",Full sun (6-8 hours),2-4 weeks before last frost
+Radish,Cherry Belle,Vegetable,3 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),4-6 weeks before last frost
+Radish,French Breakfast,Vegetable,3 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),4-6 weeks before last frost
+Radish,White Icicle,Vegetable,3 to 10,Moderate,"Minimal, compost","Carrot, Lettuce, Pea",Full sun (6-8 hours),4-6 weeks before last frost
+Spinach,Bloomsdale,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Pea, Radish",Full sun to partial shade,4-6 weeks before last frost
+Spinach,New Zealand,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Pea, Radish",Full sun to partial shade,4-6 weeks before last frost
+Spinach,Savoy,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Strawberry, Pea, Radish",Full sun to partial shade,4-6 weeks before last frost
+Mustard Greens,Southern Giant Curled,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Mustard Greens,Red Giant,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Mustard Greens,Mizuna,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Endive,Broad Leaf Batavian,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Pea",Full sun to partial shade,2-4 weeks before last frost
+Endive,Frisee,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Pea",Full sun to partial shade,2-4 weeks before last frost
+Endive,Curled Ruffec,Vegetable,7 to 14,Moderate,Balanced NPK fertilizer,"Carrot, Radish, Pea",Full sun to partial shade,2-4 weeks before last frost
+Bok Choy,Tatsoi,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Bok Choy,Joi Choi,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Bok Choy,Mei Qing Choi,Vegetable,5 to 10,High,Balanced NPK fertilizer,"Pea, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Arugula,Astro,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Onion, Radish",Full sun to partial shade,2-4 weeks before last frost
+Arugula,Wild Rocket,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Onion, Radish",Full sun to partial shade,2-4 weeks before last frost
+Arugula,Slow Bolt,Vegetable,5 to 10,Moderate,"Minimal, compost","Carrot, Onion, Radish",Full sun to partial shade,2-4 weeks before last frost
+Beet,Detroit Dark Red,Vegetable,5 to 10,Moderate,"Minimal, compost","Lettuce, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Beet,Golden,Vegetable,5 to 10,Moderate,"Minimal, compost","Lettuce, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Beet,Chioggia,Vegetable,5 to 10,Moderate,"Minimal, compost","Lettuce, Onion, Cabbage",Full sun to partial shade,2-4 weeks before last frost
+Kohlrabi,Early Purple Vienna,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Lettuce, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Kohlrabi,White Vienna,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Lettuce, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Kohlrabi,Superschmeltz,Vegetable,5 to 10,Moderate,Balanced NPK fertilizer,"Onion, Lettuce, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Lettuce,Buttercrunch,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Romaine,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Iceberg,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Red Leaf,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Lettuce,Butterhead,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Carrot, Radish, Onion",Full sun to partial shade,2-4 weeks before last frost
+Kale,Curly,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Kale,Lacinato,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Kale,Red Russian,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Cabbage",Full sun to partial shade,4-6 weeks before last frost
+Broccoli,Calabrese,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Romanesco,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Waltham 29,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Broccoli,Di Cicco,Vegetable,7 to 10,Moderate,Balanced NPK fertilizer,"Beet, Onion, Celery",Full sun (6-8 hours),4-6 weeks before last frost
+Cucumber,Marketmore,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Lemon,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Sunflower",Full sun (6-8 hours),After last frost
+Cucumber,Armenian,Vegetable,7 to 14,High,Balanced NPK fertilizer,"Corn, Bean, Sunflower",Full sun (6-8 hours),After last frost
