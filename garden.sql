@@ -36,6 +36,19 @@ CREATE TABLE Comments(
     name VARCHAR(50)
 );
 
+CREATE TABLE Pests(
+    name VARCHAR (50),
+    variety VARCHAR(100),
+    pest VARCHAR(100)
+);
+
+CREATE TABLE Growing(
+    username VARCHAR(50),
+    name VARCHAR(50),
+    variety VARCHAR(100)
+);
+
+
 /*
 When loading in data from a local source you have to log into mysql use the command: $sudo mysql --local-infile=1 -u root -p
 Then, in mysql you need to change the local_infile from 0 to 1: $SET GLOBAL local_infile=1;
@@ -64,6 +77,18 @@ LOAD DATA LOCAL INFILE 'PATH TO Locations.csv' INTO TABLE `Location`
     FIELDS TERMINATED BY ',' 
     ENCLOSED BY '"' 
     LINES TERMINATED BY '\r\n' 
+    IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'PATH TO pests_data.csv' INTO TABLE `Pests`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\n' 
+    IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'PATH TO growing_data.csv' INTO TABLE `Growing`
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\n' 
     IGNORE 1 LINES;
 
 /****** Removing Unwanted Duplicate Values from Tables ******/
@@ -122,6 +147,27 @@ WHERE EXISTS (
         CTE_duplicates.row_num > 1
 );
 
+-- Pests Data:
+WITH CTE_duplicates AS (
+    SELECT 
+        name, 
+        variety, 
+        pest,
+        ROW_NUMBER() OVER (PARTITION BY name, variety, pest ORDER BY (SELECT NULL)) AS row_num
+    FROM 
+        Pests
+)
+DELETE FROM Pests
+WHERE EXISTS (
+    SELECT 1 
+    FROM CTE_duplicates 
+    WHERE 
+        Pests.name = CTE_duplicates.name AND 
+        Pests.variety = CTE_duplicates.variety AND 
+        Pests.pest = CTE_duplicates.pest AND 
+        CTE_duplicates.row_num > 1
+);
+
 
 
 /****** Adding Keys to all Tables: ******/
@@ -140,6 +186,12 @@ ADD PRIMARY KEY (area);
 
 ALTER TABLE Crops
 ADD PRIMARY KEY (name,variety);
+
+ALTER TABLE Pests
+ADD PRIMARY KEY (name,variety, pest);
+
+ALTER TABLE Growing 
+ADD PRIMARY KEY (username, Name, Variety);
 
 
 -- Adding Foreign Keys: 
@@ -160,6 +212,24 @@ ALTER TABLE Comments
 ADD CONSTRAINT FK_UserName
 FOREIGN KEY (userName) REFERENCES Users(userName);
 
+-- This deletes values violating the needed foreign key constraints in users table
+
+-- Not yet working
+ALTER TABLE Pests
+ADD CONSTRAINT FK_Pests 
+FOREIGN KEY (name,variety) REFERENCES Crops(name, variety);
+
+ALTER TABLE Growing
+ADD CONSTRAINT FK_Growing_Crops
+FOREIGN KEY (name,variety) REFERENCES Crops(name,variety);
+
+ALTER TABLE Growing
+ADD FK_Growing_Users
+FOREIGN KEY (userName) REFERENCES Users(userName);
+
+
+
+
 
 
 /****** Views: ******/
@@ -174,6 +244,8 @@ CREATE VIEW Experts AS
 SELECT * 
 FROM Users 
 WHERE experienceLevel = 3;
+
+
 
 
 /****** Security and Privilages: ******/
