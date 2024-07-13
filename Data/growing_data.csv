@@ -1,0 +1,404 @@
+Username,Name,Variety
+green_thumb,Cucumber,Marketmore
+green_thumb,Cucumber,Boston Pickling
+green_thumb,Cucumber,Lemon
+green_thumb,Eggplant,Black Beauty
+green_thumb,Eggplant,Rosa Bianca
+green_thumb,Eggplant,Ichiban
+green_thumb,Cilantro,Santo
+green_thumb,Cilantro,Calypso
+urban_farmer,Cilantro,Slo-Bolt
+urban_farmer,Kale,Lacinato
+urban_farmer,Kale,Red Russian
+urban_farmer,Kale,Dwarf Blue Curled
+harvest_queen,Parsley,Italian Flat Leaf
+harvest_queen,Parsley,Curly Leaf
+harvest_queen,Parsley,Hamburg Rooted
+harvest_queen,Radish,Cherry Belle
+harvest_queen,Radish,French Breakfast
+harvest_queen,Radish,Daikon
+harvest_queen,Pea,Sugar Snap
+harvest_queen,Pea,Snow
+harvest_queen,Pea,English
+harvest_queen,Beet,Detroit Dark Red
+seed_sower,Beet,Chioggia
+seed_sower,Beet,Golden
+seed_sower,Chard,Rainbow
+seed_sower,Chard,Fordhook Giant
+veggie_viking,Chard,Ruby Red
+veggie_viking,Broccoli,Calabrese
+veggie_viking,Broccoli,Waltham 29
+veggie_viking,Broccoli,Purple Sprouting
+veggie_viking,Cauliflower,Snowball
+veggie_viking,Cauliflower,Cheddar
+veggie_viking,Cauliflower,Purple of Sicily
+veggie_viking,Tomato,Roma
+veggie_viking,Tomato,Cherry
+veggie_viking,Tomato,Beefsteak
+crop_master,Basil,Genovese
+crop_master,Basil,Thai
+crop_master,Basil,Lemon
+crop_master,Carrot,Nantes
+soil_scholar,Carrot,Danvers
+soil_scholar,Lettuce,Butterhead
+soil_scholar,Lettuce,Romaine
+soil_scholar,Strawberry,June-bearing
+plant_whisperer,Strawberry,Everbearing
+plant_whisperer,Rosemary,Arp
+plant_whisperer,Rosemary,Tuscan Blue
+plant_whisperer,Bell Pepper,California Wonder
+plant_whisperer,Bell Pepper,Ace
+plant_whisperer,Zucchini,Black Beauty
+field_guru,Zucchini,Cocozelle
+field_guru,Mint,Spearmint
+field_guru,Mint,Peppermint
+field_guru,Spinach,Bloomsdale
+field_guru,Spinach,Savoy
+field_guru,Spinach,Tyee
+field_guru,Spinach,Space
+field_guru,Spinach,Bloomsdale Long Standing
+field_guru,Pumpkin,Jack O'Lantern
+field_guru,Pumpkin,Sugar Pie
+garden_giant,Pumpkin,Atlantic Giant
+garden_giant,Watermelon,Crimson Sweet
+root_royalty,Watermelon,Sugar Baby
+root_royalty,Watermelon,Charleston Gray
+sprout_sage,Squash,Yellow Crookneck
+sprout_sage,Squash,Patty Pan
+sprout_sage,Squash,Butternut
+sprout_sage,Onion,Walla Walla
+sprout_sage,Onion,Yellow Sweet Spanish
+sprout_sage,Onion,Red Burgundy
+sprout_sage,Garlic,Softneck
+sprout_sage,Garlic,Hardneck
+leaf_lord,Garlic,Elephant
+leaf_lord,Chives,Common
+eco_planter,Chives,Garlic
+eco_planter,Chives,Siberian
+eco_planter,Thyme,English
+eco_planter,Thyme,Lemon
+farm_fanatic,Thyme,Creeping
+farm_fanatic,Dill,Bouquet
+flora_fan,Dill,Mammoth
+flora_fan,Dill,Fernleaf
+flora_fan,Arugula,Astro
+flora_fan,Arugula,Rocket
+crop_champion,Arugula,Wasabi
+crop_champion,Sage,Common
+crop_champion,Sage,Purple
+crop_champion,Sage,Pineapple
+crop_champion,Peppers,Jalapeno
+crop_champion,Peppers,Habanero
+crop_champion,Peppers,Poblano
+crop_champion,Radish,Watermelon
+earth_expert,Radish,Black Spanish
+earth_expert,Radish,Easter Egg
+earth_expert,Tomato,Yellow Pear
+earth_expert,Tomato,Green Zebra
+grow_guru,Tomato,Brandywine
+grow_guru,Basil,Spicy Globe
+grow_guru,Basil,Purple Ruffles
+grow_guru,Basil,Dark Opal
+field_fanatic,Carrot,Imperator
+field_fanatic,Carrot,Little Finger
+organic_enthusiast,Carrot,Purple Dragon
+organic_enthusiast,Lettuce,Oakleaf
+organic_enthusiast,Lettuce,Looseleaf
+organic_enthusiast,Lettuce,Iceberg
+organic_enthusiast,Strawberry,Alpine
+organic_enthusiast,Strawberry,Seascape
+organic_enthusiast,Strawberry,Albion
+organic_enthusiast,Rosemary,Salem
+soil_savant,Rosemary,Hill Hardy
+soil_savant,Rosemary,Blue Boy
+soil_savant,Bell Pepper,Sweet Banana
+soil_savant,Bell Pepper,Cubanelle
+soil_savant,Bell Pepper,Chocolate Beauty
+soil_savant,Zucchini,Zucchini Gold Rush
+soil_savant,Zucchini,Costata Romanesco
+soil_savant,Zucchini,Eight Ball
+green_grower,Mint,Apple Mint
+green_grower,Mint,Chocolate Mint
+plant_pro,Mint,Pineapple Mint
+plant_pro,Spinach,New Zealand
+plant_pro,Spinach,Indian Summer
+plant_pro,Spinach,Red Cardinal
+plant_pro,Cucumber,Marketmore 76
+plant_pro,Cucumber,Boston Pickling
+plant_pro,Cucumber,Lemon
+plant_pro,Beet,Detroit Dark Red
+flora_freak,Beet,Golden Beet
+flora_freak,Beet,Chioggia
+flora_freak,Kale,Lacinato
+flora_freak,Kale,Red Russian
+flora_freak,Kale,Dwarf Blue Curled
+flora_freak,Thyme,French
+root_reaper,Thyme,Caraway
+root_reaper,Thyme,Woolly
+earth_elite,Oregano,Greek
+earth_elite,Oregano,Italian
+earth_elite,Oregano,Cuban
+earth_elite,Pea,Sugar Snap
+earth_elite,Pea,Little Marvel
+earth_elite,Pea,Oregon Sugar Pod
+earth_elite,Eggplant,Black Beauty
+earth_elite,Eggplant,Rosa Bianca
+garden_genius,Eggplant,Fairy Tale
+garden_genius,Basil,Sweet Thai
+garden_genius,Basil,Cinnamon
+garden_genius,Basil,Lemon
+garden_genius,Lettuce,Butterhead
+garden_genius,Lettuce,Romaine
+garden_genius,Lettuce,Batavia
+garden_genius,Parsley,Italian Flat Leaf
+harvest_hustler,Parsley,Curled
+harvest_hustler,Parsley,Hamburg
+harvest_hustler,Cilantro,Santo
+harvest_hustler,Cilantro,Leisure
+harvest_hustler,Cilantro,Slo-Bolt
+harvest_hustler,Kale,Siberian
+harvest_hustler,Kale,Redbor
+harvest_hustler,Kale,Dwarf Siberian
+plant_professor,Chard,Rainbow
+plant_professor,Chard,Fordhook Giant
+plant_professor,Chard,Bright Lights
+plant_professor,Fennel,Florence
+crop_connoisseur,Fennel,Bronze
+crop_connoisseur,Fennel,Sweet
+crop_connoisseur,Marjoram,Sweet
+crop_connoisseur,Marjoram,Pot
+crop_connoisseur,Marjoram,Golden
+crop_connoisseur,Broccoli,Calabrese
+green_guru,Broccoli,Di Cicco
+green_guru,Broccoli,Green Sprouting
+green_guru,Cauliflower,Snowball
+green_guru,Cauliflower,Early White
+green_guru,Cauliflower,Purple Head
+green_guru,Pumpkin,Sugar Pie
+green_guru,Pumpkin,Jack Be Little
+green_guru,Pumpkin,Big Max
+green_guru,Watermelon,Sugar Baby
+green_guru,Watermelon,Crimson Sweet
+field_fan,Watermelon,Moon and Stars
+field_fan,Zucchini,Black Beauty
+field_fan,Zucchini,Grey
+field_fan,Zucchini,Cocozelle
+field_fan,Bell Pepper,Golden California Wonder
+field_fan,Bell Pepper,Purple Beauty
+field_fan,Bell Pepper,Sweet Chocolate
+field_fan,Carrot,Nantes
+garden_geek,Carrot,Danvers
+garden_geek,Carrot,Rainbow
+garden_geek,Cabbage,Golden Acre
+garden_geek,Cabbage,Red Express
+garden_geek,Cabbage,Savoy
+garden_geek,Chive,Common
+garden_geek,Chive,Garlic
+garden_geek,Chive,Siberian
+seed_savant,Squash,Waltham Butternut
+seed_savant,Squash,Yellow Crookneck
+flora_freak,Squash,Patty Pan
+flora_freak,Dill,Bouquet
+flora_freak,Dill,Long Island Mammoth
+flora_freak,Dill,Fernleaf
+harvest_hero,Cilantro,Slow Bolting
+harvest_hero,Cilantro,Calypso
+harvest_hero,Cilantro,Caribe
+harvest_hero,Mint,Spearmint
+harvest_hero,Mint,Peppermint
+harvest_hero,Mint,Chocolate
+harvest_hero,Tomato,Roma
+harvest_hero,Tomato,Beefsteak
+eco_expert,Tomato,Cherry
+eco_expert,Lavender,English
+eco_expert,Lavender,French
+eco_expert,Lavender,Spanish
+eco_expert,Oregano,Greek
+eco_expert,Oregano,Italian
+eco_expert,Oregano,Cuban
+eco_expert,Peppers,Jalapeno
+soil_scholar,Peppers,Cayenne
+soil_scholar,Peppers,Habanero
+soil_scholar,Melon,Cantaloupe
+soil_scholar,Melon,Honeydew
+soil_scholar,Melon,Galia
+soil_scholar,Spinach,Bloomsdale
+root_reaper,Spinach,New Zealand
+root_reaper,Spinach,Tyee
+root_reaper,Onion,Yellow Globe
+root_reaper,Onion,Red Burgundy
+green_genius,Onion,White Lisbon
+green_genius,Radish,Cherry Belle
+green_genius,Radish,French Breakfast
+green_genius,Radish,Watermelon
+crop_cultivator,Beet,Detroit Dark Red
+crop_cultivator,Beet,Golden
+crop_cultivator,Beet,Chioggia
+crop_cultivator,Mustard,Red Giant
+crop_cultivator,Mustard,Mizuna
+crop_cultivator,Mustard,Green Wave
+garden_guru,Broccoli,Calabrese
+garden_guru,Broccoli,De Cicco
+plant_pioneer,Broccoli,Waltham
+plant_pioneer,Kale,Lacinato
+plant_pioneer,Kale,Red Russian
+plant_pioneer,Kale,Curly
+plant_pioneer,Basil,Genovese
+plant_pioneer,Basil,Thai
+earth_enthusiast,Basil,Lemon
+earth_enthusiast,Lettuce,Butterhead
+earth_enthusiast,Lettuce,Romaine
+earth_enthusiast,Lettuce,Leaf
+earth_enthusiast,Parsley,Italian Flat Leaf
+earth_enthusiast,Parsley,Curled
+earth_enthusiast,Parsley,Hamburg Rooted
+earth_enthusiast,Thyme,Common
+earth_enthusiast,Thyme,Lemon
+earth_enthusiast,Thyme,Creeping
+organic_obsessed,Rosemary,Tuscan Blue
+organic_obsessed,Rosemary,Prostratus
+organic_obsessed,Rosemary,Arp
+organic_obsessed,Peas,Sugar Snap
+organic_obsessed,Peas,Snow
+organic_obsessed,Peas,Garden
+organic_obsessed,Cucumber,Marketmore
+organic_obsessed,Cucumber,Lemon
+flora_fanatic,Cucumber,Armenian
+flora_fanatic,Cucumber,Bush Champion
+flora_fanatic,Cucumber,National Pickling
+flora_fanatic,Cucumber,Straight Eight
+field_fanatic,Sage,Common
+field_fanatic,Sage,Purple
+field_fanatic,Sage,Golden
+field_fanatic,Cilantro,Leisure
+field_fanatic,Cilantro,Santo
+field_fanatic,Cilantro,Delfino
+field_fanatic,Pumpkin,Jack-O-Lantern
+field_fanatic,Pumpkin,Sugar Pie
+field_fanatic,Pumpkin,Big Max
+field_fanatic,Eggplant,Black Beauty
+garden_guru,Eggplant,Ichiban
+garden_guru,Eggplant,Rosa Bianca
+garden_guru,Okra,Clemson Spineless
+garden_guru,Okra,Red Burgundy
+garden_guru,Okra,Hill Country Red
+garden_guru,Peppers,Bell
+garden_guru,Peppers,Poblano
+garden_guru,Peppers,Anaheim
+garden_guru,Peppers,Serrano
+garden_guru,Peppers,Ghost Pepper
+grow_genius,Peppers,Thai Chili
+grow_genius,Pea,Sugar Snap
+grow_genius,Pea,Snow
+grow_genius,Pea,Garden
+grow_genius,Celery,Tall Utah
+grow_genius,Celery,Golden Self-Blanching
+grow_genius,Celery,Chinese Pink
+grow_genius,Turnip,Purple Top
+grow_genius,Turnip,Golden Ball
+grow_genius,Turnip,Tokyo Cross
+eco_elite,Radish,Cherry Belle
+eco_elite,Radish,French Breakfast
+eco_elite,Radish,White Icicle
+eco_elite,Spinach,Bloomsdale
+plant_prodigy,Spinach,New Zealand
+plant_prodigy,Spinach,Savoy
+plant_prodigy,Mustard Greens,Southern Giant Curled
+plant_prodigy,Mustard Greens,Red Giant
+plant_prodigy,Mustard Greens,Mizuna
+plant_prodigy,Endive,Broad Leaf Batavian
+plant_prodigy,Endive,Frisee
+plant_prodigy,Endive,Curled Ruffec
+soil_scientist,Bok Choy,Tatsoi
+soil_scientist,Bok Choy,Joi Choi
+soil_scientist,Bok Choy,Mei Qing Choi
+soil_scientist,Arugula,Astro
+soil_scientist,Arugula,Wild Rocket
+soil_scientist,Arugula,Slow Bolt
+crop_creator,Beet,Detroit Dark Red
+crop_creator,Beet,Golden
+crop_creator,Beet,Chioggia
+crop_creator,Kohlrabi,Early Purple Vienna
+crop_creator,Kohlrabi,White Vienna
+crop_creator,Kohlrabi,Superschmeltz
+crop_creator,Lettuce,Buttercrunch
+crop_creator,Lettuce,Romaine
+crop_creator,Lettuce,Iceberg
+crop_creator,Lettuce,Red Leaf
+field_fanatic,Lettuce,Butterhead
+field_fanatic,Kale,Curly
+garden_geek,Kale,Lacinato
+garden_geek,Kale,Red Russian
+garden_geek,Broccoli,Calabrese
+garden_geek,Broccoli,Romanesco
+green_genius,Broccoli,Waltham 29
+green_genius,Broccoli,Di Cicco
+green_genius,Cucumber,Marketmore
+green_genius,Cucumber,Lemon
+seed_sower,Cucumber,Armenian
+seed_sower,Cucumber,Marketmore
+seed_sower,Cucumber,Boston Pickling
+seed_sower,Cucumber,Lemon
+harvest_hero,Eggplant,Black Beauty
+harvest_hero,Eggplant,Rosa Bianca
+harvest_hero,Eggplant,Ichiban
+harvest_hero,Cilantro,Santo
+harvest_hero,Cilantro,Calypso
+harvest_hero,Cilantro,Slo-Bolt
+harvest_hero,Kale,Lacinato
+harvest_hero,Kale,Red Russian
+plant_prodigy,Kale,Dwarf Blue Curled
+plant_prodigy,Parsley,Italian Flat Leaf
+soil_savant,Parsley,Curly Leaf
+soil_savant,Parsley,Hamburg Rooted
+soil_savant,Radish,Cherry Belle
+soil_savant,Radish,French Breakfast
+soil_savant,Radish,Daikon
+soil_savant,Pea,Sugar Snap
+flora_fan,Pea,Snow
+flora_fan,Pea,English
+flora_fan,Beet,Detroit Dark Red
+flora_fan,Beet,Chioggia
+earth_expert,Beet,Golden
+earth_expert,Chard,Rainbow
+earth_expert,Chard,Fordhook Giant
+earth_expert,Chard,Ruby Red
+earth_expert,Broccoli,Calabrese
+earth_expert,Broccoli,Waltham 29
+earth_expert,Broccoli,Purple Sprouting
+earth_expert,Cauliflower,Snowball
+crop_champion,Cauliflower,Cheddar
+crop_champion,Cauliflower,Purple of Sicily
+organic_enthusiast,Tomato,Roma
+organic_enthusiast,Tomato,Cherry
+organic_enthusiast,Tomato,Beefsteak
+organic_enthusiast,Basil,Genovese
+organic_enthusiast,Basil,Thai
+organic_enthusiast,Basil,Lemon
+field_fanatic,Carrot,Nantes
+field_fanatic,Carrot,Danvers
+field_fanatic,Lettuce,Butterhead
+field_fanatic,Lettuce,Romaine
+field_fanatic,Strawberry,June-bearing
+field_fanatic,Strawberry,Everbearing
+field_fanatic,Rosemary,Arp
+field_fanatic,Rosemary,Tuscan Blue
+field_fanatic,Bell Pepper,California Wonder
+field_fanatic,Bell Pepper,Ace
+garden_guru,Zucchini,Black Beauty
+garden_guru,Zucchini,Cocozelle
+garden_guru,Mint,Spearmint
+garden_guru,Mint,Peppermint
+garden_guru,Spinach,Bloomsdale
+garden_guru,Spinach,Savoy
+harvest_hustler,Spinach,Tyee
+harvest_hustler,Spinach,Space
+harvest_hustler,Spinach,Bloomsdale Long Standing
+harvest_hustler,Pumpkin,Jack O'Lantern
+plant_professor,Pumpkin,Sugar Pie
+eco_expert,Pumpkin,Atlantic Giant
+garden_grower,Watermelon,Crimson Sweet
+seed_seeker,Watermelon,Sugar Baby
+crop_caretaker,Watermelon,Charleston Gray
+flora_fanatic,Squash,Yellow Crookneck
+green_guardian,Squash,Patty Pan

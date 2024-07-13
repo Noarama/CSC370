@@ -1,0 +1,667 @@
+Name,Variety,Pest
+Cucumber,Marketmore,Cucumber beetles
+Cucumber,Boston Pickling,Cucumber beetles
+Cucumber,Lemon,Cucumber beetles
+Eggplant,Black Beauty,Aphids
+Eggplant,Black Beauty, Flea beetles
+Eggplant,Rosa Bianca,Aphids
+Eggplant,Rosa Bianca, Flea beetles
+Eggplant,Ichiban,Aphids
+Eggplant,Ichiban, Flea beetles
+Cilantro,Santo,Aphids
+Cilantro,Santo, Spider mites
+Cilantro,Calypso,Aphids
+Cilantro,Calypso, Spider mites
+Cilantro,Slo-Bolt,Aphids
+Cilantro,Slo-Bolt, Spider mites
+Kale,Lacinato,Aphids
+Kale,Lacinato, Cabbage worms
+Kale,Red Russian,Aphids
+Kale,Red Russian, Cabbage worms
+Kale,Dwarf Blue Curled,Aphids
+Kale,Dwarf Blue Curled, Cabbage worms
+Parsley,Italian Flat Leaf,Aphids
+Parsley,Italian Flat Leaf, Spider mites
+Parsley,Curly Leaf,Aphids
+Parsley,Curly Leaf, Spider mites
+Parsley,Hamburg Rooted,Aphids
+Parsley,Hamburg Rooted, Spider mites
+Radish,Cherry Belle,Flea beetles
+Radish,Cherry Belle, Aphids
+Radish,French Breakfast,Flea beetles
+Radish,French Breakfast, Aphids
+Radish,Daikon,Flea beetles
+Radish,Daikon, Aphids
+Pea,Sugar Snap,Aphids
+Pea,Sugar Snap, Weevils
+Pea,Snow,Aphids
+Pea,Snow, Weevils
+Pea,English,Aphids
+Pea,English, Weevils
+Beet,Detroit Dark Red,Aphids
+Beet,Detroit Dark Red, Leaf miners
+Beet,Chioggia,Aphids
+Beet,Chioggia, Leaf miners
+Beet,Golden,Aphids
+Beet,Golden, Leaf miners
+Chard,Rainbow,Aphids
+Chard,Rainbow, Leaf miners
+Chard,Fordhook Giant,Aphids
+Chard,Fordhook Giant, Leaf miners
+Chard,Ruby Red,Aphids
+Chard,Ruby Red, Leaf miners
+Broccoli,Calabrese,Aphids
+Broccoli,Calabrese, Cabbage worms
+Broccoli,Waltham 29,Aphids
+Broccoli,Waltham 29, Cabbage worms
+Broccoli,Purple Sprouting,Aphids
+Broccoli,Purple Sprouting, Cabbage worms
+Cauliflower,Snowball,Aphids
+Cauliflower,Snowball, Cabbage worms
+Cauliflower,Cheddar,Aphids
+Cauliflower,Cheddar, Cabbage worms
+Cauliflower,Purple of Sicily,Aphids
+Cauliflower,Purple of Sicily, Cabbage worms
+Tomato,Roma,Aphids
+Tomato,Roma, Hornworms
+Tomato,Cherry,Aphids
+Tomato,Cherry, Hornworms
+Tomato,Beefsteak,Aphids
+Tomato,Beefsteak, Hornworms
+Basil,Genovese,Aphids
+Basil,Genovese, Spider mites
+Basil,Thai,Aphids
+Basil,Thai, Spider mites
+Basil,Lemon,Aphids
+Basil,Lemon, Spider mites
+Carrot,Nantes,Carrot rust fly
+Carrot,Danvers,Carrot rust fly
+Lettuce,Butterhead,Slugs
+Lettuce,Butterhead, Aphids
+Lettuce,Romaine,Slugs
+Lettuce,Romaine, Aphids
+Strawberry,June-bearing,Slugs
+Strawberry,June-bearing, Aphids
+Strawberry,Everbearing,Slugs
+Strawberry,Everbearing, Aphids
+Rosemary,Arp,Aphids
+Rosemary,Arp, Spider mites
+Rosemary,Tuscan Blue,Aphids
+Rosemary,Tuscan Blue, Spider mites
+Bell Pepper,California Wonder,Aphids
+Bell Pepper,California Wonder, Beetles
+Bell Pepper,Ace,Aphids
+Bell Pepper,Ace, Beetles
+Zucchini,Black Beauty,Squash bugs
+Zucchini,Black Beauty, Aphids
+Zucchini,Cocozelle,Squash bugs
+Zucchini,Cocozelle, Aphids
+Mint,Spearmint,Aphids
+Mint,Spearmint, Spider mites
+Mint,Peppermint,Aphids
+Mint,Peppermint, Spider mites
+Spinach,Bloomsdale,Aphids
+Spinach,Bloomsdale, Leaf miners
+Spinach,Savoy,Aphids
+Spinach,Savoy, Leaf miners
+Spinach,Tyee,Aphids
+Spinach,Tyee, Leaf miners
+Spinach,Space,Aphids
+Spinach,Space, Leaf miners
+Spinach,Bloomsdale Long Standing,Aphids
+Spinach,Bloomsdale Long Standing, Leaf miners
+Pumpkin,Jack O'Lantern,Squash bugs
+Pumpkin,Jack O'Lantern, Aphids
+Pumpkin,Sugar Pie,Squash bugs
+Pumpkin,Sugar Pie, Aphids
+Pumpkin,Atlantic Giant,Squash bugs
+Pumpkin,Atlantic Giant, Aphids
+Watermelon,Crimson Sweet,Aphids
+Watermelon,Crimson Sweet, Cucumber beetles
+Watermelon,Sugar Baby,Aphids
+Watermelon,Sugar Baby, Cucumber beetles
+Watermelon,Charleston Gray,Aphids
+Watermelon,Charleston Gray, Cucumber beetles
+Squash,Yellow Crookneck,Squash bugs
+Squash,Yellow Crookneck, Aphids
+Squash,Patty Pan,Squash bugs
+Squash,Patty Pan, Aphids
+Squash,Butternut,Squash bugs
+Squash,Butternut, Aphids
+Onion,Walla Walla,Onion maggots
+Onion,Walla Walla, Thrips
+Onion,Yellow Sweet Spanish,Onion maggots
+Onion,Yellow Sweet Spanish, Thrips
+Onion,Red Burgundy,Onion maggots
+Onion,Red Burgundy, Thrips
+Garlic,Softneck,Aphids
+Garlic,Softneck, Thrips
+Garlic,Hardneck,Aphids
+Garlic,Hardneck, Thrips
+Garlic,Elephant,Aphids
+Garlic,Elephant, Thrips
+Chives,Common,Aphids
+Chives,Common, Thrips
+Chives,Garlic,Aphids
+Chives,Garlic, Thrips
+Chives,Siberian,Aphids
+Chives,Siberian, Thrips
+Thyme,English,Aphids
+Thyme,English, Spider mites
+Thyme,Lemon,Aphids
+Thyme,Lemon, Spider mites
+Thyme,Creeping,Aphids
+Thyme,Creeping, Spider mites
+Dill,Bouquet,Aphids
+Dill,Bouquet, Spider mites
+Dill,Mammoth,Aphids
+Dill,Mammoth, Spider mites
+Dill,Fernleaf,Aphids
+Dill,Fernleaf, Spider mites
+Arugula,Astro,Flea beetles
+Arugula,Astro, Aphids
+Arugula,Rocket,Flea beetles
+Arugula,Rocket, Aphids
+Arugula,Wasabi,Flea beetles
+Arugula,Wasabi, Aphids
+Sage,Common,Aphids
+Sage,Common, Spider mites
+Sage,Purple,Aphids
+Sage,Purple, Spider mites
+Sage,Pineapple,Aphids
+Sage,Pineapple, Spider mites
+Peppers,Jalapeno,Aphids
+Peppers,Jalapeno, Beetles
+Peppers,Habanero,Aphids
+Peppers,Habanero, Beetles
+Peppers,Poblano,Aphids
+Peppers,Poblano, Beetles
+Radish,Watermelon,Flea beetles
+Radish,Watermelon, Aphids
+Radish,Black Spanish,Flea beetles
+Radish,Black Spanish, Aphids
+Radish,Easter Egg,Flea beetles
+Radish,Easter Egg, Aphids
+Tomato,Yellow Pear,Aphids
+Tomato,Yellow Pear, Hornworms
+Tomato,Green Zebra,Aphids
+Tomato,Green Zebra, Hornworms
+Tomato,Brandywine,Aphids
+Tomato,Brandywine, Hornworms
+Basil,Spicy Globe,Aphids
+Basil,Spicy Globe, Spider mites
+Basil,Purple Ruffles,Aphids
+Basil,Purple Ruffles, Spider mites
+Basil,Dark Opal,Aphids
+Basil,Dark Opal, Spider mites
+Carrot,Imperator,Carrot rust fly
+Carrot,Little Finger,Carrot rust fly
+Carrot,Purple Dragon,Carrot rust fly
+Lettuce,Oakleaf,Slugs
+Lettuce,Oakleaf, Aphids
+Lettuce,Looseleaf,Slugs
+Lettuce,Looseleaf, Aphids
+Lettuce,Iceberg,Slugs
+Lettuce,Iceberg, Aphids
+Strawberry,Alpine,Slugs
+Strawberry,Alpine, Aphids
+Strawberry,Seascape,Slugs
+Strawberry,Seascape, Aphids
+Strawberry,Albion,Slugs
+Strawberry,Albion, Aphids
+Rosemary,Salem,Aphids
+Rosemary,Salem, Spider mites
+Rosemary,Hill Hardy,Aphids
+Rosemary,Hill Hardy, Spider mites
+Rosemary,Blue Boy,Aphids
+Rosemary,Blue Boy, Spider mites
+Bell Pepper,Sweet Banana,Aphids
+Bell Pepper,Sweet Banana, Beetles
+Bell Pepper,Cubanelle,Aphids
+Bell Pepper,Cubanelle, Beetles
+Bell Pepper,Chocolate Beauty,Aphids
+Bell Pepper,Chocolate Beauty, Beetles
+Zucchini,Zucchini Gold Rush,Squash bugs
+Zucchini,Zucchini Gold Rush, Aphids
+Zucchini,Costata Romanesco,Squash bugs
+Zucchini,Costata Romanesco, Aphids
+Zucchini,Eight Ball,Squash bugs
+Zucchini,Eight Ball, Aphids
+Mint,Apple Mint,Aphids
+Mint,Apple Mint, Spider mites
+Mint,Chocolate Mint,Aphids
+Mint,Chocolate Mint, Spider mites
+Mint,Pineapple Mint,Aphids
+Mint,Pineapple Mint, Spider mites
+Spinach,New Zealand,Aphids
+Spinach,New Zealand, Leaf miners
+Spinach,Indian Summer,Aphids
+Spinach,Indian Summer, Leaf miners
+Spinach,Red Cardinal,Aphids
+Spinach,Red Cardinal, Leaf miners
+Cucumber,Marketmore 76,Cucumber beetles
+Cucumber,Marketmore 76, Aphids
+Cucumber,Boston Pickling,Cucumber beetles
+Cucumber,Boston Pickling, Aphids
+Cucumber,Lemon,Cucumber beetles
+Cucumber,Lemon, Aphids
+Beet,Detroit Dark Red,Aphids
+Beet,Detroit Dark Red, Leaf miners
+Beet,Golden Beet,Aphids
+Beet,Golden Beet, Leaf miners
+Beet,Chioggia,Aphids
+Beet,Chioggia, Leaf miners
+Kale,Lacinato,Aphids
+Kale,Lacinato, Cabbage worms
+Kale,Red Russian,Aphids
+Kale,Red Russian, Cabbage worms
+Kale,Dwarf Blue Curled,Aphids
+Kale,Dwarf Blue Curled, Cabbage worms
+Thyme,French,Aphids
+Thyme,French, Spider mites
+Thyme,Caraway,Aphids
+Thyme,Caraway, Spider mites
+Thyme,Woolly,Aphids
+Thyme,Woolly, Spider mites
+Oregano,Greek,Aphids
+Oregano,Greek, Spider mites
+Oregano,Italian,Aphids
+Oregano,Italian, Spider mites
+Oregano,Cuban,Aphids
+Oregano,Cuban, Spider mites
+Pea,Sugar Snap,Aphids
+Pea,Sugar Snap, Root maggots
+Pea,Little Marvel,Aphids
+Pea,Little Marvel, Root maggots
+Pea,Oregon Sugar Pod,Aphids
+Pea,Oregon Sugar Pod, Root maggots
+Eggplant,Black Beauty,Flea beetles
+Eggplant,Black Beauty, Aphids
+Eggplant,Rosa Bianca,Flea beetles
+Eggplant,Rosa Bianca, Aphids
+Eggplant,Fairy Tale,Flea beetles
+Eggplant,Fairy Tale, Aphids
+Basil,Sweet Thai,Aphids
+Basil,Sweet Thai, Spider mites
+Basil,Cinnamon,Aphids
+Basil,Cinnamon, Spider mites
+Basil,Lemon,Aphids
+Basil,Lemon, Spider mites
+Lettuce,Butterhead,Slugs
+Lettuce,Butterhead, Aphids
+Lettuce,Romaine,Slugs
+Lettuce,Romaine, Aphids
+Lettuce,Batavia,Slugs
+Lettuce,Batavia, Aphids
+Parsley,Italian Flat Leaf,Aphids
+Parsley,Italian Flat Leaf, Armyworms
+Parsley,Curled,Aphids
+Parsley,Curled, Armyworms
+Parsley,Hamburg,Aphids
+Parsley,Hamburg, Armyworms
+Cilantro,Santo,Aphids
+Cilantro,Santo, Armyworms
+Cilantro,Leisure,Aphids
+Cilantro,Leisure, Armyworms
+Cilantro,Slo-Bolt,Aphids
+Cilantro,Slo-Bolt, Armyworms
+Kale,Siberian,Aphids
+Kale,Siberian, Cabbage worms
+Kale,Redbor,Aphids
+Kale,Redbor, Cabbage worms
+Kale,Dwarf Siberian,Aphids
+Kale,Dwarf Siberian, Cabbage worms
+Chard,Rainbow,Aphids
+Chard,Rainbow, Leaf miners
+Chard,Fordhook Giant,Aphids
+Chard,Fordhook Giant, Leaf miners
+Chard,Bright Lights,Aphids
+Chard,Bright Lights, Leaf miners
+Fennel,Florence,Aphids
+Fennel,Florence, Caterpillars
+Fennel,Bronze,Aphids
+Fennel,Bronze, Caterpillars
+Fennel,Sweet,Aphids
+Fennel,Sweet, Caterpillars
+Marjoram,Sweet,Aphids
+Marjoram,Sweet, Spider mites
+Marjoram,Pot,Aphids
+Marjoram,Pot, Spider mites
+Marjoram,Golden,Aphids
+Marjoram,Golden, Spider mites
+Broccoli,Calabrese,Aphids
+Broccoli,Calabrese, Cabbage worms
+Broccoli,Di Cicco,Aphids
+Broccoli,Di Cicco, Cabbage worms
+Broccoli,Green Sprouting,Aphids
+Broccoli,Green Sprouting, Cabbage worms
+Cauliflower,Snowball,Aphids
+Cauliflower,Snowball, Cabbage worms
+Cauliflower,Early White,Aphids
+Cauliflower,Early White, Cabbage worms
+Cauliflower,Purple Head,Aphids
+Cauliflower,Purple Head, Cabbage worms
+Pumpkin,Sugar Pie,Squash bugs
+Pumpkin,Sugar Pie, Aphids
+Pumpkin,Jack Be Little,Squash bugs
+Pumpkin,Jack Be Little, Aphids
+Pumpkin,Big Max,Squash bugs
+Pumpkin,Big Max, Aphids
+Watermelon,Sugar Baby,Aphids
+Watermelon,Sugar Baby, Cucumber beetles
+Watermelon,Crimson Sweet,Aphids
+Watermelon,Crimson Sweet, Cucumber beetles
+Watermelon,Moon and Stars,Aphids
+Watermelon,Moon and Stars, Cucumber beetles
+Zucchini,Black Beauty,Squash bugs
+Zucchini,Black Beauty, Aphids
+Zucchini,Grey,Squash bugs
+Zucchini,Grey, Aphids
+Zucchini,Cocozelle,Squash bugs
+Zucchini,Cocozelle, Aphids
+Bell Pepper,Golden California Wonder,Aphids
+Bell Pepper,Golden California Wonder, Beetles
+Bell Pepper,Purple Beauty,Aphids
+Bell Pepper,Purple Beauty, Beetles
+Bell Pepper,Sweet Chocolate,Aphids
+Bell Pepper,Sweet Chocolate, Beetles
+Carrot,Nantes,Carrot fly
+Carrot,Nantes, Aphids
+Carrot,Danvers,Carrot fly
+Carrot,Danvers, Aphids
+Carrot,Rainbow,Carrot fly
+Carrot,Rainbow, Aphids
+Cabbage,Golden Acre,Cabbage worms
+Cabbage,Golden Acre, Aphids
+Cabbage,Red Express,Cabbage worms
+Cabbage,Red Express, Aphids
+Cabbage,Savoy,Cabbage worms
+Cabbage,Savoy, Aphids
+Chive,Common,Thrips
+Chive,Common, Aphids
+Chive,Garlic,Thrips
+Chive,Garlic, Aphids
+Chive,Siberian,Thrips
+Chive,Siberian, Aphids
+Squash,Waltham Butternut,Squash bugs
+Squash,Waltham Butternut, Aphids
+Squash,Yellow Crookneck,Squash bugs
+Squash,Yellow Crookneck, Aphids
+Squash,Patty Pan,Squash bugs
+Squash,Patty Pan, Aphids
+Dill,Bouquet,Aphids
+Dill,Bouquet, Armyworms
+Dill,Long Island Mammoth,Aphids
+Dill,Long Island Mammoth, Armyworms
+Dill,Fernleaf,Aphids
+Dill,Fernleaf, Armyworms
+Cilantro,Slow Bolting,Aphids
+Cilantro,Slow Bolting, Spider mites
+Cilantro,Calypso,Aphids
+Cilantro,Calypso, Spider mites
+Cilantro,Caribe,Aphids
+Cilantro,Caribe, Spider mites
+Mint,Spearmint,Aphids
+Mint,Spearmint, Spider mites
+Mint,Peppermint,Aphids
+Mint,Peppermint, Spider mites
+Mint,Chocolate,Aphids
+Mint,Chocolate, Spider mites
+Tomato,Roma,Aphids
+Tomato,Roma, Whiteflies
+Tomato,Beefsteak,Aphids
+Tomato,Beefsteak, Whiteflies
+Tomato,Cherry,Aphids
+Tomato,Cherry, Whiteflies
+Lavender,English,Aphids
+Lavender,English, Spider mites
+Lavender,French,Aphids
+Lavender,French, Spider mites
+Lavender,Spanish,Aphids
+Lavender,Spanish, Spider mites
+Oregano,Greek,Aphids
+Oregano,Greek, Spider mites
+Oregano,Italian,Aphids
+Oregano,Italian, Spider mites
+Oregano,Cuban,Aphids
+Oregano,Cuban, Spider mites
+Peppers,Jalapeno,Aphids
+Peppers,Jalapeno, Beetles
+Peppers,Cayenne,Aphids
+Peppers,Cayenne, Beetles
+Peppers,Habanero,Aphids
+Peppers,Habanero, Beetles
+Melon,Cantaloupe,Aphids
+Melon,Cantaloupe, Cucumber beetles
+Melon,Honeydew,Aphids
+Melon,Honeydew, Cucumber beetles
+Melon,Galia,Aphids
+Melon,Galia, Cucumber beetles
+Spinach,Bloomsdale,Aphids
+Spinach,Bloomsdale, Leaf miners
+Spinach,New Zealand,Aphids
+Spinach,New Zealand, Leaf miners
+Spinach,Tyee,Aphids
+Spinach,Tyee, Leaf miners
+Onion,Yellow Globe,Thrips
+Onion,Yellow Globe, Onion maggots
+Onion,Red Burgundy,Thrips
+Onion,Red Burgundy, Onion maggots
+Onion,White Lisbon,Thrips
+Onion,White Lisbon, Onion maggots
+Radish,Cherry Belle,Aphids
+Radish,Cherry Belle, Flea beetles
+Radish,French Breakfast,Aphids
+Radish,French Breakfast, Flea beetles
+Radish,Watermelon,Aphids
+Radish,Watermelon, Flea beetles
+Beet,Detroit Dark Red,Aphids
+Beet,Detroit Dark Red, Leaf miners
+Beet,Golden,Aphids
+Beet,Golden, Leaf miners
+Beet,Chioggia,Aphids
+Beet,Chioggia, Leaf miners
+Mustard,Red Giant,Flea beetles
+Mustard,Red Giant, Aphids
+Mustard,Mizuna,Flea beetles
+Mustard,Mizuna, Aphids
+Mustard,Green Wave,Flea beetles
+Mustard,Green Wave, Aphids
+Broccoli,Calabrese,Cabbage worms
+Broccoli,Calabrese, Aphids
+Broccoli,De Cicco,Cabbage worms
+Broccoli,De Cicco, Aphids
+Broccoli,Waltham,Cabbage worms
+Broccoli,Waltham, Aphids
+Kale,Lacinato,Cabbage worms
+Kale,Lacinato, Aphids
+Kale,Red Russian,Cabbage worms
+Kale,Red Russian, Aphids
+Kale,Curly,Cabbage worms
+Kale,Curly, Aphids
+Basil,Genovese,Aphids
+Basil,Genovese, Spider mites
+Basil,Thai,Aphids
+Basil,Thai, Spider mites
+Basil,Lemon,Aphids
+Basil,Lemon, Spider mites
+Lettuce,Butterhead,Aphids
+Lettuce,Butterhead, Slugs
+Lettuce,Romaine,Aphids
+Lettuce,Romaine, Slugs
+Lettuce,Leaf,Aphids
+Lettuce,Leaf, Slugs
+Parsley,Italian Flat Leaf,Aphids
+Parsley,Italian Flat Leaf, Spider mites
+Parsley,Curled,Aphids
+Parsley,Curled, Spider mites
+Parsley,Hamburg Rooted,Aphids
+Parsley,Hamburg Rooted, Spider mites
+Thyme,Common,Aphids
+Thyme,Common, Spider mites
+Thyme,Lemon,Aphids
+Thyme,Lemon, Spider mites
+Thyme,Creeping,Aphids
+Thyme,Creeping, Spider mites
+Rosemary,Tuscan Blue,Aphids
+Rosemary,Tuscan Blue, Spider mites
+Rosemary,Prostratus,Aphids
+Rosemary,Prostratus, Spider mites
+Rosemary,Arp,Aphids
+Rosemary,Arp, Spider mites
+Peas,Sugar Snap,Aphids
+Peas,Sugar Snap, Pea weevil
+Peas,Snow,Aphids
+Peas,Snow, Pea weevil
+Peas,Garden,Aphids
+Peas,Garden, Pea weevil
+Cucumber,Marketmore,Aphids
+Cucumber,Marketmore, Cucumber beetles
+Cucumber,Lemon,Aphids
+Cucumber,Lemon, Cucumber beetles
+Cucumber,Armenian,Aphids
+Cucumber,Armenian, Cucumber beetles
+Cucumber,Bush Champion,Aphids
+Cucumber,Bush Champion, Cucumber beetles
+Cucumber,National Pickling,Aphids
+Cucumber,National Pickling, Cucumber beetles
+Cucumber,Straight Eight,Aphids
+Cucumber,Straight Eight, Cucumber beetles
+Sage,Common,Aphids
+Sage,Common, Spider mites
+Sage,Purple,Aphids
+Sage,Purple, Spider mites
+Sage,Golden,Aphids
+Sage,Golden, Spider mites
+Cilantro,Leisure,Aphids
+Cilantro,Leisure, Spider mites
+Cilantro,Santo,Aphids
+Cilantro,Santo, Spider mites
+Cilantro,Delfino,Aphids
+Cilantro,Delfino, Spider mites
+Pumpkin,Jack-O-Lantern,Squash bugs
+Pumpkin,Jack-O-Lantern, Aphids
+Pumpkin,Sugar Pie,Squash bugs
+Pumpkin,Sugar Pie, Aphids
+Pumpkin,Big Max,Squash bugs
+Pumpkin,Big Max, Aphids
+Eggplant,Black Beauty,Aphids
+Eggplant,Black Beauty, Flea beetles
+Eggplant,Ichiban,Aphids
+Eggplant,Ichiban, Flea beetles
+Eggplant,Rosa Bianca,Aphids
+Eggplant,Rosa Bianca, Flea beetles
+Okra,Clemson Spineless,Aphids
+Okra,Clemson Spineless, Flea beetles
+Okra,Red Burgundy,Aphids
+Okra,Red Burgundy, Flea beetles
+Okra,Hill Country Red,Aphids
+Okra,Hill Country Red, Flea beetles
+Peppers,Bell,Aphids
+Peppers,Bell, Beetles
+Peppers,Poblano,Aphids
+Peppers,Poblano, Beetles
+Peppers,Anaheim,Aphids
+Peppers,Anaheim, Beetles
+Peppers,Serrano,Aphids
+Peppers,Serrano, Beetles
+Peppers,Ghost Pepper,Aphids
+Peppers,Ghost Pepper, Beetles
+Peppers,Thai Chili,Aphids
+Peppers,Thai Chili, Beetles
+Pea,Sugar Snap,Aphids
+Pea,Sugar Snap, Pea weevil
+Pea,Snow,Aphids
+Pea,Snow, Pea weevil
+Pea,Garden,Aphids
+Pea,Garden, Pea weevil
+Celery,Tall Utah,Aphids
+Celery,Tall Utah, Carrot rust flies
+Celery,Golden Self-Blanching,Aphids
+Celery,Golden Self-Blanching, Carrot rust flies
+Celery,Chinese Pink,Aphids
+Celery,Chinese Pink, Carrot rust flies
+Turnip,Purple Top,Flea beetles
+Turnip,Purple Top, Aphids
+Turnip,Golden Ball,Flea beetles
+Turnip,Golden Ball, Aphids
+Turnip,Tokyo Cross,Flea beetles
+Turnip,Tokyo Cross, Aphids
+Radish,Cherry Belle,Flea beetles
+Radish,Cherry Belle, Aphids
+Radish,French Breakfast,Flea beetles
+Radish,French Breakfast, Aphids
+Radish,White Icicle,Flea beetles
+Radish,White Icicle, Aphids
+Spinach,Bloomsdale,Leaf miners
+Spinach,Bloomsdale, Aphids
+Spinach,New Zealand,Leaf miners
+Spinach,New Zealand, Aphids
+Spinach,Savoy,Leaf miners
+Spinach,Savoy, Aphids
+Mustard Greens,Southern Giant Curled,Aphids
+Mustard Greens,Southern Giant Curled, Flea beetles
+Mustard Greens,Red Giant,Aphids
+Mustard Greens,Red Giant, Flea beetles
+Mustard Greens,Mizuna,Aphids
+Mustard Greens,Mizuna, Flea beetles
+Endive,Broad Leaf Batavian,Aphids
+Endive,Broad Leaf Batavian, Slugs
+Endive,Frisee,Aphids
+Endive,Frisee, Slugs
+Endive,Curled Ruffec,Aphids
+Endive,Curled Ruffec, Slugs
+Bok Choy,Tatsoi,Flea beetles
+Bok Choy,Tatsoi, Aphids
+Bok Choy,Joi Choi,Flea beetles
+Bok Choy,Joi Choi, Aphids
+Bok Choy,Mei Qing Choi,Flea beetles
+Bok Choy,Mei Qing Choi, Aphids
+Arugula,Astro,Flea beetles
+Arugula,Astro, Aphids
+Arugula,Wild Rocket,Flea beetles
+Arugula,Wild Rocket, Aphids
+Arugula,Slow Bolt,Flea beetles
+Arugula,Slow Bolt, Aphids
+Beet,Detroit Dark Red,Leaf miners
+Beet,Detroit Dark Red, Aphids
+Beet,Golden,Leaf miners
+Beet,Golden, Aphids
+Beet,Chioggia,Leaf miners
+Beet,Chioggia, Aphids
+Kohlrabi,Early Purple Vienna,Aphids
+Kohlrabi,Early Purple Vienna, Cabbage worms
+Kohlrabi,White Vienna,Aphids
+Kohlrabi,White Vienna, Cabbage worms
+Kohlrabi,Superschmeltz,Aphids
+Kohlrabi,Superschmeltz, Cabbage worms
+Lettuce,Buttercrunch,Aphids
+Lettuce,Buttercrunch, Slugs
+Lettuce,Romaine,Aphids
+Lettuce,Romaine, Slugs
+Lettuce,Iceberg,Aphids
+Lettuce,Iceberg, Slugs
+Lettuce,Red Leaf,Aphids
+Lettuce,Red Leaf, Slugs
+Lettuce,Butterhead,Aphids
+Lettuce,Butterhead, Slugs
+Kale,Curly,Aphids
+Kale,Curly, Cabbage worms
+Kale,Lacinato,Aphids
+Kale,Lacinato, Cabbage worms
+Kale,Red Russian,Aphids
+Kale,Red Russian, Cabbage worms
+Broccoli,Calabrese,Aphids
+Broccoli,Calabrese, Cabbage worms
+Broccoli,Romanesco,Aphids
+Broccoli,Romanesco, Cabbage worms
+Broccoli,Waltham 29,Aphids
+Broccoli,Waltham 29, Cabbage worms
+Broccoli,Di Cicco,Aphids
+Broccoli,Di Cicco, Cabbage worms
+Cucumber,Marketmore,Cucumber beetles
+Cucumber,Marketmore, Aphids
+Cucumber,Lemon,Cucumber beetles
+Cucumber,Lemon, Aphids
+Cucumber,Armenian,Cucumber beetles
+Cucumber,Armenian, Aphids
