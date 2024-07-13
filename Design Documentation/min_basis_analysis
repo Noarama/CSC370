@@ -1,0 +1,27 @@
+The minimal bases below meet all three of the minimal basis rules
+  1) Every FD has a singleton right hand side
+  2) Remove redundant FD’s
+  3) Ensure that if any attribute is removed from the left hand side of an FD, we no longer have a basis
+
+The following relations are also all in Third Normal Form, as all prime attributes are on the left hand side of the funtional
+dependencies. 
+
+Minimal Basis - Crops table:
+Name Variety -> Type
+Name Varity -> GerminationPeriod
+Name Variety -> WaterNeeds
+Name Variety -> FertilizationNeeds
+Name Variety -> Companions
+Name Variety -> TimeToPlant
+
+Minimal Basis - Users table:
+UserName -> Area
+UserName -> Experience
+UserName -> isAdmin
+UserName -> Growing
+
+Minimal Basis - Pests table:
+Name Variety -> Pest
+
+Minimal Basis - Growing Table:
+UserName -> Name Variety
