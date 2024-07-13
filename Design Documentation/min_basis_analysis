@@ -20,8 +20,11 @@ UserName -> Experience
 UserName -> isAdmin
 UserName -> Growing
 
-Minimal Basis - Pests table:
+Minimal Basis - Pests/crops table:
 Name Variety -> Pest
 
 Minimal Basis - Growing Table:
 UserName -> Name Variety
+
+Minimal Basis - Pests Table:
+PestName -> Treatment
