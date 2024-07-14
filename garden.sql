@@ -12,7 +12,7 @@ CREATE DATABASE Garden;
 USE Garden;
 
 
--- **** Tables Within Database Creation ****
+-- **** Tables Creation ****
 
 CREATE TABLE Crops(
     name VARCHAR(50),
@@ -51,6 +51,7 @@ CREATE TABLE Comments(
     name VARCHAR(50)
 );
 
+-- Below are tables for the relationships:
 CREATE TABLE Attracts(
     name VARCHAR (50),
     variety VARCHAR(100),
@@ -68,6 +69,13 @@ CREATE TABLE Pests(
     treatment VARCHAR(300)
 );
 
+--  Below is table for subset:
+CREATE TABLE Admins(
+    userName VARCHAR(50),
+    FOREIGN KEY (userName) REFERENCES Users(userName)
+);
+
+-- **** Data Insertion ****
 /*
 When loading in data from a local source you have to log into mysql use the command: $sudo mysql --local-infile=1 -u root -p
 Then, in mysql you need to change the local_infile from 0 to 1: $SET GLOBAL local_infile=1;
@@ -115,6 +123,11 @@ LOAD DATA LOCAL INFILE 'PATH TO pests_treatment.csv' INTO TABLE `Pests`
     ENCLOSED BY '"' 
     LINES TERMINATED BY '\n' 
     IGNORE 1 LINES;
+
+INSERT INTO Admins(
+    SELECT userName 
+    FROM Users
+    WHERE isAdmin = TRUE);
 
 
 /****** Data Manipulation ******/

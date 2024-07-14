@@ -7,13 +7,13 @@
 
 -- Adding data into existing tables
 INSERT INTO Users
-VALUES ('super_grower', 'Prince George', 1 , False, NULL);
+VALUES ('super_grower', 'Prince George', 1 , True);
 
 INSERT INTO Comments
 VALUES (101, 'super_grower', '2023-01-03', 'Help! My plant is dying!', 'Thai', 'Basil');
 
 INSERT INTO Users 
-VALUES('noarama', 'Nanaimo', 2, True, NULL);
+VALUES('noarama', 'Nanaimo', 2, True);
 
 
 
