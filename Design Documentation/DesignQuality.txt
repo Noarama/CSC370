@@ -1,0 +1,43 @@
+** Completeness: **
+Initial design makes it difficult to satisfy certain design requirements. More specifically, the list of crops which users grow, the companions of a certain crop, and the pests of a certain crop are all stored as a string attribute of the respective entity. Because of this we are unable to execute queries like ‘show every comment which is written about crops which are affected by a certain pest’ without using complex string operations. 
+
+Solution: implement tables for the relationships ‘users grow crops’ and ‘crops attract pests’ where each table holds every instance of a user growing a specific crop or a crop attracting a specific pest.
+
+Reasoning: This structure will allow us to write queries (using SQL skills within the scope of this course) that satisfy all our requirements.
+
+** Correctness: **
+ERD correctly uses the concepts of the ER model and is syntactically correct. SQL implementation of the database verifies the correctness of the ERD.
+
+** Minimality: **
+
+Initial design includes a `Companions` attribute of the `Crops` entity where `Companions` is a string list of every companion a crop has. This is redundant because each pair of companions are communicated twice. Eg. if a cucumber has tomatoes listed as a companion, then tomatoes will also have cucumbers listed as a companion.
+
+Solution: rather than storing the list of companions as an attribute of a crop, `Crops` should have a relationship with themselves where ‘Crops are companions with Crops’. (does this solve the redundancy? I’m not 100% sure)
+
+Reasoning: ensures that the crop companions relationship of the schema only appears once.
+
+** Expressiveness: **
+`Users` table holds an attribute `isAdmin` where if a user is an admin they are able to monitor (edit or remove) inappropriate comments.  For most users, this attribute is irrelevant. 
+
+Solution: create a subset of the `Users` table for admin where admin have the relationship ‘Admin monitor comments’.
+
+Reasoning: Represents the constraint that ‘if a user is an admin then they can monitor comments’ in a natural way.
+
+** Readability: **
+Initial ERD did not use a grid, had some lines crossing, and several bending lines
+
+Solution: draw the diagram on a grid with mostly horizontal/vertical lines, draw parents above children in the diagram.
+
+Reasoning: respects aesthetic criteria that makes the diagram graceful.
+
+** Self-explanation: **
+ERD has good self-explanation. No text annotations are required to understand the schema.
+
+** Extensibility: **
+ERD easily adapts to changing requirements. ERD is decomposed so that any changes are made locally.
+
+** Normalisation: **
+Schema is normalised - fits into Boyce-Codd (requirement of previous sprint).
+
+
+
