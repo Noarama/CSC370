@@ -7,24 +7,22 @@ The following relations are also all in Third Normal Form, as all prime attribut
 dependencies. 
 
 Minimal Basis - Crops table:
-Name Variety -> Type
-Name Varity -> GerminationPeriod
-Name Variety -> WaterNeeds
-Name Variety -> FertilizationNeeds
-Name Variety -> Companions
-Name Variety -> TimeToPlant
+Crop -> Type
+Crop -> GerminationPeriod
+Crop -> WaterNeeds
+Crop -> FertilizationNeeds
+Crop -> TimeToPlant
 
 Minimal Basis - Users table:
 UserName -> Area
 UserName -> Experience
 UserName -> isAdmin
-UserName -> Growing
 
-Minimal Basis - Pests/crops table:
-Name Variety -> Pest
+Minimal Basis - Attracts table:
+Crop -> Pest
 
 Minimal Basis - Growing Table:
-UserName -> Name Variety
+UserName -> Crop
 
 Minimal Basis - Pests Table:
 PestName -> Treatment
