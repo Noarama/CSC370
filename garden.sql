@@ -15,47 +15,47 @@ USE Garden;
 -- **** Tables Creation ****
 
 CREATE TABLE Crops(
-    name VARCHAR(50),
-    variety VARCHAR(100),
-    type ENUM('Vegetable', 'Fruit', 'Herb'),
-    germinationPeriod VARCHAR(120),
-    water_needs ENUM('Low', 'Moderate', 'High'),
-    fertilizationNeeds VARCHAR(120),
-    companions VARCHAR(120),
-    commonPests VARCHAR(80),
-    sunRequirements ENUM('Partial shade', 'Partial shade to full sun', 'Full sun to partial shade', 'Full sun (6-8 hours)'),
-    timeToPlant VARCHAR(120)
+    name VARCHAR(50) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    type ENUM('Vegetable', 'Fruit', 'Herb') NOT NULL,
+    germinationPeriod VARCHAR(120) NOT NULL,
+    water_needs ENUM('Low', 'Moderate', 'High') NOT NULL,
+    fertilizationNeeds VARCHAR(120) NOT NULL,
+    companions VARCHAR(120) NOT NULL,
+    commonPests VARCHAR(80) NOT NULL,
+    sunRequirements ENUM('Partial shade', 'Partial shade to full sun', 'Full sun to partial shade', 'Full sun (6-8 hours)') NOT NULL,
+    timeToPlant VARCHAR(120) NOT NULL
 );
 
 CREATE TABLE Location(
-    area VARCHAR(50), 
-    province VARCHAR(120), 
-    lastFrost VARCHAR(30),
-    firstFrost VARCHAR(30)
+    area VARCHAR(50) NOT NULL, 
+    province VARCHAR(120) NOT NULL, 
+    lastFrost VARCHAR(30) NOT NULL,
+    firstFrost VARCHAR(30) NOT NULL
 ); 
 
 CREATE TABLE Users(
-    userName VARCHAR(50),
-    area VARCHAR(50),
-    experienceLevel ENUM('beginner', 'intermediate', 'expert'),
-    isAdmin BOOL, 
-    growing VARCHAR(120)
+    userName VARCHAR(50) NOT NULL,
+    area VARCHAR(50) NULL,
+    experienceLevel ENUM('beginner', 'intermediate', 'expert') NULL,
+    isAdmin BOOL NOT NULL, 
+    growing VARCHAR(120) NULL
 );
 
 CREATE TABLE Comments(
-    CommentID int,  
-    userName Varchar(50), 
-    Date Date,
-    Contents Varchar(256),
-    variety VARCHAR(100),
-    name VARCHAR(50)
+    CommentID int NOT NULL,  
+    userName Varchar(50) NOT NULL, 
+    Date Date NOT NULL,
+    Contents Varchar(256) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    name VARCHAR(50) NOT NULL
 );
 
 -- Below are tables for the relationships:
 CREATE TABLE Attracts(
-    name VARCHAR (50),
-    variety VARCHAR(100),
-    pest VARCHAR(100)
+    name VARCHAR (50) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    pest VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Growing(
