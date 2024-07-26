@@ -75,6 +75,14 @@ CREATE TABLE Admins(
     FOREIGN KEY (userName) REFERENCES Users(userName)
 );
 
+CREATE TABLE Monitors(
+    userName VARCHAR(50), 
+    CommentID int, 
+    contentStatus ENUM('appropriate', 'inappropriate'),
+    FOREIGN KEY (userName) REFERENCES Users(userName), 
+    FOREIGN KEY (CommentID) REFERENCES Comments(CommentID)
+);
+
 -- **** Data Insertion ****
 /*
 When loading in data from a local source you have to log into mysql use the command: $sudo mysql --local-infile=1 -u root -p
@@ -385,3 +393,39 @@ GRANT INSERT, ALTER
 ON Crops 
 TO 'expert'@'%';
 
+/****** Check Constraints and Triggers: ******/
+--Comments cannot contain inappropriate language
+ALTER TABLE `Comments`
+ADD CHECK (`Contents` NOT LIKE '%fuck%' AND `Contents` NOT LIKE '%shit%' AND `Contents` NOT LIKE '%bitch');
+
+ALTER TABLE `Users` 
+ ADD COLUMN `commentsMade` INT NOT NULL DEFAULT 0,
+ ADD COLUMN `startCountTime` DATE;
+
+ALTER TABLE `Users` 
+ ADD CHECK(`commentsMade` <= 200); -- max number of comments made in 24hr period is 200
+
+--for testing purposes
+ALTER TABLE `Users` 
+ ADD CHECK(`commentsMade` <= 1);
+
+CREATE TRIGGER `inc_commentsMade`
+BEFORE INSERT ON `Comments`
+FOR EACH ROW
+    UPDATE `Users` SET `commentsMade` = `commentsMade` + 1 
+    WHERE `userName` = NEW.`userName` 
+      AND DATEDIFF( NEW.`Date`, startCountTIME) < 1;
+
+CREATE TRIGGER `create_comment`
+BEFORE INSERT ON `Comments`
+FOR EACH ROW
+     UPDATE `Users` SET `startCountTime` = NEW.`Date`
+     WHERE `userName` = NEW.`userName`
+     AND (startCountTime = NULL OR DATEDIFF(NEW.`Date`, startCountTime) > 1);
+
+-- Populate the tables with some data
+INSERT INTO `Comments`
+VALUES(400, 'crop_caretaker', CURRENT_DATE(), 'this is a comments', 'Lemon', 'Cucumber');
+
+INSERT INTO `Comments` -- this works when it shouldnt. need to figure out why
+VALUES(401, 'crop_caretaker', CURRENT_DATE(), 'this exceeds the max # of comments', 'Lemon', 'Cucumber');
