@@ -15,47 +15,47 @@ USE Garden;
 -- **** Tables Creation ****
 
 CREATE TABLE Crops(
-    name VARCHAR(50),
-    variety VARCHAR(100),
-    type ENUM('Vegetable', 'Fruit', 'Herb'),
-    germinationPeriod VARCHAR(120),
-    water_needs ENUM('Low', 'Moderate', 'High'),
-    fertilizationNeeds VARCHAR(120),
-    companions VARCHAR(120),
-    commonPests VARCHAR(80),
-    sunRequirements ENUM('Partial shade', 'Partial shade to full sun', 'Full sun to partial shade', 'Full sun (6-8 hours)'),
-    timeToPlant VARCHAR(120)
+    name VARCHAR(50) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    type ENUM('Vegetable', 'Fruit', 'Herb') NOT NULL,
+    germinationPeriod VARCHAR(120) NOT NULL,
+    water_needs ENUM('Low', 'Moderate', 'High') NOT NULL,
+    fertilizationNeeds VARCHAR(120) NOT NULL,
+    companions VARCHAR(120) NOT NULL,
+    commonPests VARCHAR(80) NOT NULL,
+    sunRequirements ENUM('Partial shade', 'Partial shade to full sun', 'Full sun to partial shade', 'Full sun (6-8 hours)') NOT NULL,
+    timeToPlant VARCHAR(120) NOT NULL
 );
 
 CREATE TABLE Location(
-    area VARCHAR(50), 
-    province VARCHAR(120), 
-    lastFrost VARCHAR(30),
-    firstFrost VARCHAR(30)
+    area VARCHAR(50) NOT NULL, 
+    province VARCHAR(120) NOT NULL, 
+    lastFrost VARCHAR(30) NOT NULL,
+    firstFrost VARCHAR(30) NOT NULL
 ); 
 
 CREATE TABLE Users(
-    userName VARCHAR(50),
-    area VARCHAR(50),
-    experienceLevel ENUM('beginner', 'intermediate', 'expert'),
-    isAdmin BOOL, 
-    growing VARCHAR(120)
+    userName VARCHAR(50) NOT NULL,
+    area VARCHAR(50) NULL,
+    experienceLevel ENUM('beginner', 'intermediate', 'expert') NULL,
+    isAdmin BOOL NOT NULL, 
+    growing VARCHAR(120) NULL
 );
 
 CREATE TABLE Comments(
-    CommentID int,  
-    userName Varchar(50), 
-    Date Date,
-    Contents Varchar(256),
-    variety VARCHAR(100),
-    name VARCHAR(50)
+    CommentID int NOT NULL,  
+    userName Varchar(50) NOT NULL, 
+    Date Date NOT NULL,
+    Contents Varchar(256) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    name VARCHAR(50) NOT NULL
 );
 
 -- Below are tables for the relationships:
 CREATE TABLE Attracts(
-    name VARCHAR (50),
-    variety VARCHAR(100),
-    pest VARCHAR(100)
+    name VARCHAR (50) NOT NULL,
+    variety VARCHAR(100) NOT NULL,
+    pest VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Growing(
@@ -73,6 +73,14 @@ CREATE TABLE Pests(
 CREATE TABLE Admins(
     userName VARCHAR(50),
     FOREIGN KEY (userName) REFERENCES Users(userName)
+);
+
+CREATE TABLE Monitors(
+    userName VARCHAR(50), 
+    CommentID int, 
+    contentStatus ENUM('appropriate', 'inappropriate'),
+    FOREIGN KEY (userName) REFERENCES Users(userName), 
+    FOREIGN KEY (CommentID) REFERENCES Comments(CommentID)
 );
 
 -- **** Data Insertion ****
@@ -385,3 +393,39 @@ GRANT INSERT, ALTER
 ON Crops 
 TO 'expert'@'%';
 
+/****** Check Constraints and Triggers: ******/
+--Comments cannot contain inappropriate language
+ALTER TABLE `Comments`
+ADD CHECK (`Contents` NOT LIKE '%fuck%' AND `Contents` NOT LIKE '%shit%' AND `Contents` NOT LIKE '%bitch');
+
+ALTER TABLE `Users` 
+ ADD COLUMN `commentsMade` INT NOT NULL DEFAULT 0,
+ ADD COLUMN `startCountTime` DATE;
+
+ALTER TABLE `Users` 
+ ADD CHECK(`commentsMade` <= 200); -- max number of comments made in 24hr period is 200
+
+--for testing purposes
+ALTER TABLE `Users` 
+ ADD CHECK(`commentsMade` <= 1);
+
+CREATE TRIGGER `inc_commentsMade`
+BEFORE INSERT ON `Comments`
+FOR EACH ROW
+    UPDATE `Users` SET `commentsMade` = `commentsMade` + 1 
+    WHERE `userName` = NEW.`userName` 
+      AND DATEDIFF( NEW.`Date`, startCountTIME) < 1;
+
+CREATE TRIGGER `create_comment`
+BEFORE INSERT ON `Comments`
+FOR EACH ROW
+     UPDATE `Users` SET `startCountTime` = NEW.`Date`
+     WHERE `userName` = NEW.`userName`
+     AND (startCountTime = NULL OR DATEDIFF(NEW.`Date`, startCountTime) > 1);
+
+-- Populate the tables with some data
+INSERT INTO `Comments`
+VALUES(400, 'crop_caretaker', CURRENT_DATE(), 'this is a comments', 'Lemon', 'Cucumber');
+
+INSERT INTO `Comments` -- this works when it shouldnt. need to figure out why
+VALUES(401, 'crop_caretaker', CURRENT_DATE(), 'this exceeds the max # of comments', 'Lemon', 'Cucumber');

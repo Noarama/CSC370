@@ -19,7 +19,7 @@ WHERE commonPests LIKE 'Aphids%' OR '%aphids';
 --- Show all users growing a specific crop (Julia)
 SELECT userName
 FROM Users
-WHERE growing LIKE '%Peppers, Bell%';
+WHERE growing LIKE '%Peppers, Bell%' AND growing IS NOT NULL;
 
 --- Show all varieties of a certain crop (Julia)
 SELECT DISTINCT `Variety`
@@ -45,7 +45,7 @@ WHERE type = 'Herb';
 SELECT users.area 
 FROM `Comments` 
 JOIN users ON comments.userName=users.userName 
-WHERE Comments.CommentID = 2;
+WHERE Comments.CommentID = 2 AND users.area IS NOT NULL;
 --- Show the user with the most comments (join, aggregation) (Noa)
 
 --- Show the level of a user that wrote a certain comment (join) (Julia)
@@ -69,7 +69,7 @@ WHERE Name = 'Tomato';
 --- Show the most popular area where eggplant is grown (Julia)
 SELECT Area, COUNT(*) as Popularity
 FROM YourTable
-WHERE growing LIKE '%Eggplant%'
+WHERE growing LIKE '%Eggplant%' AND Area IS NOT NULL
 GROUP BY Area
 ORDER BY Popularity DESC
 LIMIT 1;
