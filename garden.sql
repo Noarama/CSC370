@@ -398,34 +398,65 @@ TO 'expert'@'%';
 ALTER TABLE `Comments`
 ADD CHECK (`Contents` NOT LIKE '%fuck%' AND `Contents` NOT LIKE '%shit%' AND `Contents` NOT LIKE '%bitch');
 
-ALTER TABLE `Users` 
- ADD COLUMN `commentsMade` INT NOT NULL DEFAULT 0,
- ADD COLUMN `startCountTime` DATE;
+ALTER TABLE Users
+    ADD COLUMN commentsMade INT NOT NULL DEFAULT 0, 
+    ADD COLUMN startCountTime DATE;
 
 ALTER TABLE `Users` 
- ADD CHECK(`commentsMade` <= 200); -- max number of comments made in 24hr period is 200
+ ADD CHECK(`commentsMade` <= 200); -- max number of comments made in 24hr period is 200 to avoid spamming
 
---for testing purposes
+--For testing purposes (don't want to simulate writing 200 comments)
 ALTER TABLE `Users` 
- ADD CHECK(`commentsMade` <= 1);
+ ADD CHECK(`commentsMade` <= 1); 
 
-CREATE TRIGGER `inc_commentsMade`
+DELIMITER $$
+
+CREATE TRIGGER `count_commentsMade`
 BEFORE INSERT ON `Comments`
 FOR EACH ROW
-    UPDATE `Users` SET `commentsMade` = `commentsMade` + 1 
-    WHERE `userName` = NEW.`userName` 
-      AND DATEDIFF( NEW.`Date`, startCountTIME) < 1;
+BEGIN
+    DECLARE user_comment_count INT DEFAULT 0;
+    DECLARE user_start_count_time DATE;
 
-CREATE TRIGGER `create_comment`
-BEFORE INSERT ON `Comments`
-FOR EACH ROW
-     UPDATE `Users` SET `startCountTime` = NEW.`Date`
-     WHERE `userName` = NEW.`userName`
-     AND (startCountTime = NULL OR DATEDIFF(NEW.`Date`, startCountTime) > 1);
+    -- Fetch current comment count and startCountTime for the user
+    SELECT commentsMade, startCountTime INTO user_comment_count, user_start_count_time
+    FROM Users
+    WHERE userName = NEW.userName;
 
--- Populate the tables with some data
+    -- If startCountTime is NULL, set it to the current date
+    IF user_start_count_time IS NULL THEN
+        SET user_start_count_time = NEW.Date;
+    END IF;
+
+    -- Check if the comment date is different from the last comment date
+    IF user_start_count_time = NEW.Date AND user_comment_count >= 1 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'User has already made a comment today.';
+    ELSE
+        IF user_start_count_time <> NEW.Date THEN
+            UPDATE Users
+            SET commentsMade = 1, startCountTime = NEW.Date
+            WHERE userName = NEW.userName;
+        ELSE
+            UPDATE Users
+            SET commentsMade = commentsMade + 1
+            WHERE userName = NEW.userName;
+        END IF;
+    END IF;
+END$$
+
+DELIMITER ;
+
+-- write some comments
 INSERT INTO `Comments`
-VALUES(400, 'crop_caretaker', CURRENT_DATE(), 'this is a comments', 'Lemon', 'Cucumber');
+VALUES(402, 'crop_caretaker', CURRENT_DATE(), 'this is a comments', 'Lemon', 'Cucumber');
 
-INSERT INTO `Comments` -- this works when it shouldnt. need to figure out why
-VALUES(401, 'crop_caretaker', CURRENT_DATE(), 'this exceeds the max # of comments', 'Lemon', 'Cucumber');
+-- this comment will not be added if it is written within 24hrs of the previous comment
+INSERT INTO `Comments`
+VALUES(403, 'crop_caretaker', CURRENT_DATE(), 'this exceeds the max # of comments', 'Lemon', 'Cucumber');
+
+
+
+
+
+

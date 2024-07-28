@@ -1,0 +1,32 @@
+Query 1: 
+
+SELECT `crop`
+FROM `Crops`
+WHERE sunRequirements = 'Full sun (6-8 hours)';
+
+Input domain partitioning:
+I can split the sunRequirements input domain into 2 partitions, one where the sunRequriements is equal to full sun (6-8 hours) and the second where it is not
+Test cases for this input domain include:
+*(crop, type, germinationPeriod, water_needs, fertilizationNeeds, companions, sunRequirements, timeToPlant)*
+test case 1: 'cucumber, marketmore', 'vegetable', '7 to 10', high, 'Balanced NPK fertilizer', 'Beans, Radishes, Corn', 'Full sun (6-8 hours)', 'After last frost'
+test case 2: 'cilantro, santo', 'herb', '7 to 14', 'moderate', 'low, compost', 'Tomato, Basil, Peppers', 'Full sun to partial shade', 'After last frost'
+
+If working correctly, the query should return the crop name of test case 1 when run on a table containing only the test case 1 tuple. If run on a table containing only the test case
+2 tuple, the query should return nothing -> CAN CONFIRM QUERY IS WORKING CORRECTLY WHEN RUN ON THESE TEST CASES 
+
+Query 2: 
+
+SELECT userName
+FROM Users
+WHERE experienceLevel = 1;
+
+Input domain partitioning:
+I can split the experienceLevel input domain into 2 partitions, one where the experienceLevel equals 1 (or beginner) and one where it does not (2/intermediate,
+3/expert, or null)
+Test cases for this input domain include:
+(userName, area, experienceLevel, isAdmin, growing)
+test case 1: 'urban_farmer', 'Bathurst', 'Beginner', False, ['Endive, Broad Leaf Batavian', 'Sage, Purple']
+test case 2: 'green_thumb', 'Prince George', 'Intermediate', False, ['Eggplant, Fairy Tale', 'Basil, Dark Opal', 'Kale, Dwarf Blue Curled', 'Peppers, Bell']
+
+If working correctly, the query should return the userName of test case 1 when run on a table containing only the test case 1 tuple. If run on a table containing only the test case
+2 tuple, the query should return nothing -> CAN CONFIRM QUERY IS WORKING CORRECTLY WHEN RUN ON THESE TEST CASES 
