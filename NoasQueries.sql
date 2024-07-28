@@ -9,6 +9,9 @@
 INSERT INTO Users
 VALUES ('super_grower', 'Prince George', 1 , True);
 
+INSERT INTO Users
+VALUES ('me_me', 'Victoria', 1 , True);
+
 INSERT INTO Comments
 VALUES (101, 'super_grower', '2023-01-03', 'Help! My plant is dying!', 'Thai', 'Basil');
 
@@ -28,9 +31,9 @@ FROM Users
 WHERE experienceLevel = 1;
 
 -- 2. Shows all crops that are affected by aphids
-SELECT name, variety 
-FROM Crops
-WHERE commonPests LIKE '%aphids%' OR 'Aphids%';
+SELECT crop 
+FROM Attracts
+WHERE pest LIKE '%aphids%' OR 'Aphids%';
 
 
 /******* JOINS *******/
@@ -130,4 +133,28 @@ JOIN
     LIMIT 1  
 ) AS PopularArea
 ON (PopularArea.area = Users.area);
-4
+
+
+
+/******* Simplifying Queries *******/
+
+-- Associativity 
+-- These query shows all beginner users that live in Victoria 
+SELECT a.userName
+FROM (
+    SELECT *
+    FROM Users 
+    WHERE experienceLevel = 1
+) AS a
+WHERE a.area LIKE "Victoria";
+
+-- This is a simplified, equivalent version of above. 
+SELECT username 
+FROM Users 
+WHERE area = "Victoria"
+AND experienceLevel = 1;
+
+
+
+
+
