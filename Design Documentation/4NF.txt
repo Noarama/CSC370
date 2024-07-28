@@ -1,0 +1,43 @@
+The non-trivial functional dependencies in our database for each table:
+
+Crops Table:
+Crop -> type germinationPeriod water_needs fertilizationNeeds sunRequirements timeToPlant
+
+Users Table:
+userName -> isAdmin experienceLevel Area ExperienceLevel
+
+Locations Table: 
+Area -> province lastFrost firstFrost
+
+Comments Table:
+commentID -> contents date userName crop
+
+Attracts Table:
+Crop ->> Pest
+
+Is Crop a superkey? Yes
+
+Growing Table:
+userName ->> Crop
+
+Is userName a superkey? Yes
+
+Pests Table:
+pest -> treatment
+
+Admins Table:
+none
+
+Monitors Table:
+userName ->> commentID 
+username -> contentStatus
+
+Is userName a superkey? Yes
+
+Companions Table: 
+Crop ->> Companion
+
+Is Crop a superkey? Yes
+
+All of our relations are in 4NF 
+Since all the MVDs satisfy the requirement that the left hand side is a superkey. 
